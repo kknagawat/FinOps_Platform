@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: finops-analytics-platform
+    runtime: python
+    buildCommand: pip install -r requirements.txt && python run_step2.py && python run_step5.py
+    startCommand: uvicorn src.api.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false        # set manually in Render dashboard
+      - key: PYTHON_VERSION
+        value: 3.11.0

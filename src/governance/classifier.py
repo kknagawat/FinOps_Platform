@@ -1,0 +1,222 @@
+"""
+src/governance/classifier.py
+============================
+Step 6 — Query Safety Classifier
+
+Classifies every agent request into one of three tiers BEFORE execution:
+
+    BLOCKED         Any request that would mutate or destroy data.
+                    Hard stop — never executes, ever.
+
+    REQUIRES_REVIEW Request touches sensitive data or could expose PII,
+                    bulk-export data, or flag financial irregularities.
+                    Held in approval queue until a human approves/rejects.
+
+    SAFE            Read-only analytics, chart generation, policy lookups.
+                    Executes immediately.
+
+Classification runs TWICE per request:
+  1. Pre-execution  — classify the raw user question
+  2. Post-SQL       — re-classify once generated SQL is known
+     (catches cases where an innocent question produced dangerous SQL)
+
+The classifier is rule-based (regex), not LLM-based, for three reasons:
+  1. Speed: regex runs in microseconds; no LLM call overhead
+  2. Determinism: same input → same classification, every time
+  3. Auditability: every rule is explicit, readable, and version-controlled
+"""
+
+from __future__ import annotations
+
+import re
+from dataclasses import dataclass
+from enum import Enum
+from typing import Optional
+
+
+# =============================================================================
+# Classification enum
+# =============================================================================
+
+class Classification(str, Enum):
+    SAFE             = "safe"
+    REQUIRES_REVIEW  = "requires_review"
+    BLOCKED          = "blocked"
+
+
+# =============================================================================
+# Result dataclass
+# =============================================================================
+
+@dataclass
+class ClassificationResult:
+    classification: Classification
+    reason:         str
+    rule_triggered: str   # which specific rule matched
+    confidence:     float = 1.0  # always 1.0 for rule-based classifier
+
+    @property
+    def is_safe(self)           -> bool: return self.classification == Classification.SAFE
+    @property
+    def is_blocked(self)        -> bool: return self.classification == Classification.BLOCKED
+    @property
+    def requires_review(self)   -> bool: return self.classification == Classification.REQUIRES_REVIEW
+
+    def to_dict(self) -> dict:
+        return {
+            "classification": self.classification.value,
+            "reason":         self.reason,
+            "rule_triggered": self.rule_triggered,
+        }
+
+
+# =============================================================================
+# Pattern definitions (compiled once at import time)
+# =============================================================================
+
+# ── BLOCKED rules ─────────────────────────────────────────────────────────────
+# Any SQL that mutates or destroys data must never execute.
+_MUTATING_SQL = re.compile(
+    r"\b(INSERT\s+INTO|UPDATE\s+\w+|DELETE\s+FROM|DROP\s+TABLE|DROP\s+DATABASE|"
+    r"ALTER\s+TABLE|TRUNCATE\s+TABLE|CREATE\s+TABLE|REPLACE\s+INTO|"
+    r"MERGE\s+INTO)\b",
+    re.IGNORECASE,
+)
+# Questions phrased as explicit mutation requests
+_MUTATING_QUESTION = re.compile(
+    r"\b(delete|remove|drop|truncate|update|modify|alter|insert|add a row|"
+    r"change the (data|record|value)|set .+ to)\b",
+    re.IGNORECASE,
+)
+
+# ── REQUIRES_REVIEW rules ─────────────────────────────────────────────────────
+
+# PII field access — columns that can directly identify individuals
+_PII_FIELDS_SQL = re.compile(
+    r"\b(email|phone|address|zip_code|first_name|last_name)\b",
+    re.IGNORECASE,
+)
+_PII_QUESTION = re.compile(
+    r"\b(email|phone number|home address|personal (address|info|data|detail)|"
+    r"contact (detail|info)|full name|customer name)\b",
+    re.IGNORECASE,
+)
+
+# Bulk / data export operations
+_BULK_EXPORT = re.compile(
+    r"\b(export all|download all|dump (all|the)? (data|records|customers|transactions)|"
+    r"bulk export|all records|all customers|all transactions|full (data|database) export|"
+    r"SELECT \* FROM customers|SELECT \* FROM transactions)\b",
+    re.IGNORECASE,
+)
+
+# Financial anomaly / irregularity language — needs human eyes
+_FINANCIAL_ANOMALY = re.compile(
+    r"\b(anomal|irregularit|fraud|irregularities|suspicious (transaction|payment|activity)|"
+    r"financial (irregularity|discrepancy|manipulation)|"
+    r"unusual (payment|charge|transaction)|double.billed|over.charged)\b",
+    re.IGNORECASE,
+)
+
+
+# =============================================================================
+# Classifier function
+# =============================================================================
+
+def classify(
+    question:      str,
+    generated_sql: Optional[str] = None,
+) -> ClassificationResult:
+    """
+    Classify a request as SAFE, REQUIRES_REVIEW, or BLOCKED.
+
+    Parameters
+    ----------
+    question      : the user's original natural language question
+    generated_sql : the SQL string generated by sql_query_tool (may be None
+                    for pre-execution classification)
+
+    Returns
+    -------
+    ClassificationResult with classification, reason, and rule_triggered.
+
+    Evaluation order: BLOCKED > REQUIRES_REVIEW > SAFE
+    We check the most severe tier first so a blocked question can never
+    accidentally be approved as requires_review.
+    """
+    text = question.strip()
+    sql  = (generated_sql or "").strip()
+
+    # ── Tier 1: BLOCKED ───────────────────────────────────────────────────────
+    if sql and _MUTATING_SQL.search(sql):
+        match = _MUTATING_SQL.search(sql).group()
+        return ClassificationResult(
+            classification = Classification.BLOCKED,
+            reason         = f"Generated SQL contains mutating statement: {match}",
+            rule_triggered = "MUTATING_SQL",
+        )
+
+    if _MUTATING_QUESTION.search(text):
+        match = _MUTATING_QUESTION.search(text).group()
+        return ClassificationResult(
+            classification = Classification.BLOCKED,
+            reason         = f"Question requests data mutation: '{match}'",
+            rule_triggered = "MUTATING_QUESTION",
+        )
+
+    # ── Tier 2: REQUIRES_REVIEW ───────────────────────────────────────────────
+
+    # PII in generated SQL
+    if sql and _PII_FIELDS_SQL.search(sql):
+        match = _PII_FIELDS_SQL.search(sql).group()
+        return ClassificationResult(
+            classification = Classification.REQUIRES_REVIEW,
+            reason         = f"SQL accesses PII column: '{match}'",
+            rule_triggered = "PII_FIELDS_SQL",
+        )
+
+    # PII in question
+    if _PII_QUESTION.search(text):
+        match = _PII_QUESTION.search(text).group()
+        return ClassificationResult(
+            classification = Classification.REQUIRES_REVIEW,
+            reason         = f"Question requests PII data: '{match}'",
+            rule_triggered = "PII_QUESTION",
+        )
+
+    # Bulk export
+    if _BULK_EXPORT.search(text) or (sql and _BULK_EXPORT.search(sql)):
+        return ClassificationResult(
+            classification = Classification.REQUIRES_REVIEW,
+            reason         = "Request involves bulk data export or full table access",
+            rule_triggered = "BULK_EXPORT",
+        )
+
+    # Financial anomaly
+    if _FINANCIAL_ANOMALY.search(text):
+        return ClassificationResult(
+            classification = Classification.REQUIRES_REVIEW,
+            reason         = "Request involves financial anomaly or irregularity detection — needs human review",
+            rule_triggered = "FINANCIAL_ANOMALY",
+        )
+
+    # ── Tier 3: SAFE ─────────────────────────────────────────────────────────
+    return ClassificationResult(
+        classification = Classification.SAFE,
+        reason         = "Read-only analytics, chart generation, or policy lookup",
+        rule_triggered = "DEFAULT_SAFE",
+    )
+
+
+# =============================================================================
+# Convenience wrapper
+# =============================================================================
+
+def classify_question(question: str) -> ClassificationResult:
+    """Classify a raw user question before any SQL is generated."""
+    return classify(question, generated_sql=None)
+
+
+def classify_with_sql(question: str, sql: str) -> ClassificationResult:
+    """Re-classify once SQL has been generated (catches SQL-level risks)."""
+    return classify(question, generated_sql=sql)

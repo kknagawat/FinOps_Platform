@@ -1,0 +1,24 @@
+# Environment
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Generated at runtime (Render rebuilds these)
+finops.db
+rag_index/
+charts/
+notebooks/data_profile_report.csv
+notebooks/validation_report.csv
+
+# Python
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+
+# OS
+.DS_Store

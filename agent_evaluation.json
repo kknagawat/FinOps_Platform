@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "question": "What is our current MRR and how has it changed over the last 6 months?",
+    "expected_tools": ["revenue_calculator_tool"],
+    "routing_rationale": "Revenue metric computation belongs in revenue_calculator_tool, not SQL. This ensures consistent MRR figures regardless of SQL generation quality.",
+    "hand_written_sql": null,
+    "agent_actual_output": "PENDING_LIVE_RUN — requires ANTHROPIC_API_KEY",
+    "notes": "Agent should return MRR from active subscriptions and 6-month monthly timeseries. Expected MRR ~$197,397."
+  },
+  {
+    "id": 2,
+    "question": "Show me the top 10 customers by lifetime revenue.",
+    "expected_tools": ["sql_query_tool"],
+    "routing_rationale": "Direct data lookup with GROUP BY and ORDER BY — sql_query_tool handles ad-hoc analytical queries.",
+    "hand_written_sql": "SELECT c.customer_id, c.first_name || ' ' || c.last_name AS name, c.company, ROUND(SUM(t.amount), 2) AS lifetime_revenue FROM transactions t JOIN customers c ON c.customer_id = t.customer_id WHERE t.status = 'completed' GROUP BY t.customer_id ORDER BY lifetime_revenue DESC LIMIT 10;",
+    "agent_actual_output": "PENDING_LIVE_RUN",
+    "notes": "Should JOIN customers for name resolution. Expected top customer ~$11,299."
+  },
+  {
+    "id": 3,
+    "question": "Which customers are at high risk of churning based on recent behavior?",
+    "expected_tools": ["customer_segmentation_tool"],
+    "routing_rationale": "Multi-signal churn scoring (usage decline, ticket spike, no login) is implemented in customer_segmentation_tool using Python/pandas.",
+    "hand_written_sql": "-- From queries.sql Q8:\nWITH signal_usage AS (\n  SELECT customer_id,\n    COUNT(CASE WHEN session_date >= date('2025-12-31', '-30 days') THEN 1 END) AS s30,\n    COUNT(CASE WHEN session_date >= date('2025-12-31', '-60 days')\n               AND session_date < date('2025-12-31', '-30 days') THEN 1 END) AS s60\n  FROM product_usage WHERE customer_id IS NOT NULL GROUP BY customer_id\n)\nSELECT customer_id,\n  CASE WHEN s30 < s60 THEN 1 ELSE 0 END AS usage_decline_signal\nFROM signal_usage;",
+    "agent_actual_output": "PENDING_LIVE_RUN",
+    "notes": "Expected: 1 High Risk, ~57 Medium Risk, ~116 Low Risk, ~74 Healthy customers."
+  },
+  {
+    "id": 4,
+    "question": "What is our refund policy for enterprise customers?",
+    "expected_tools": ["knowledge_retrieval_tool"],
+    "routing_rationale": "Policy question — MUST use knowledge_retrieval_tool. SQL cannot answer policy questions. Agent must never invent policy details.",
+    "hand_written_sql": null,
+    "expected_content": "Enterprise customers have custom refund terms as specified in their MSA. Default enterprise refund window is 45 calendar days. Enterprise refunds require VP-level approval and a documented reason code. Enterprise customers are eligible for service credits at 1.25x the refund amount.",
+    "source_attribution": "[Source: refund_policy.md — Enterprise Plans]",
+    "agent_actual_output": "PENDING_LIVE_RUN",
+    "notes": "CRITICAL routing test. If agent uses sql_query_tool instead of knowledge_retrieval_tool, routing has failed."
+  },
+  {
+    "id": 5,
+    "question": "Generate a bar chart of monthly revenue for the last 12 months.",
+    "expected_tools": ["chart_generator_tool"],
+    "routing_rationale": "Explicit visualisation request — chart_generator_tool. Agent should supply a SQL query in data_sql parameter.",
+    "hand_written_sql": "SELECT strftime('%Y-%m', transaction_date) AS period, ROUND(SUM(amount), 2) AS revenue FROM transactions WHERE status = 'completed' AND transaction_date >= date('2025-12-31', '-12 months') GROUP BY period ORDER BY period;",
+    "agent_actual_output": "PENDING_LIVE_RUN",
+    "notes": "Agent should return a file_path to a saved PNG. Chart should have 12 bars."
+  },
+  {
+    "id": 6,
+    "question": "Are there any anomalies in our transaction volumes this month?",
+    "expected_tools": ["anomaly_detection_tool"],
+    "routing_rationale": "Anomaly detection using statistical methods — anomaly_detection_tool with zscore/IQR.",
+    "hand_written_sql": null,
+    "agent_actual_output": "PENDING_LIVE_RUN",
+    "notes": "Should use metric_name='transaction_volume', lookback_days=30. Reference date 2025-12-31."
+  },
+  {
+    "id": 7,
+    "question": "Segment our customers using RFM analysis and show the distribution.",
+    "expected_tools": ["customer_segmentation_tool"],
+    "routing_rationale": "Explicit RFM segmentation request — customer_segmentation_tool implements quintile-based RFM scoring.",
+    "hand_written_sql": null,
+    "agent_actual_output": "PENDING_LIVE_RUN",
+    "expected_segments": ["Champions", "Loyal", "Needs Attention", "At Risk", "Hibernating"],
+    "notes": "Expected distribution approx: Champions 91, Loyal 102, Needs Attention 85, At Risk 136, Hibernating 90."
+  },
+  {
+    "id": 8,
+    "question": "What is the average resolution time for high-priority support tickets, and what does our SLA require?",
+    "expected_tools": ["sql_query_tool", "knowledge_retrieval_tool"],
+    "routing_rationale": "Multi-step: (1) sql_query_tool for actual resolution times, (2) knowledge_retrieval_tool for SLA requirements. Tests multi-tool chaining.",
+    "hand_written_sql": "SELECT priority, COUNT(ticket_id) AS total, ROUND(AVG((julianday(resolved_at) - julianday(created_at)) * 24), 2) AS avg_hours FROM support_tickets WHERE priority IN ('high','critical') AND resolved_at IS NOT NULL AND created_at IS NOT NULL GROUP BY priority;",
+    "expected_sla": "High: target 12h, max 24h. Critical: target 4h, max 8h. [Source: sla_policy.md — Resolution SLA]",
+    "agent_actual_output": "PENDING_LIVE_RUN",
+    "notes": "KEY multi-tool test. Agent must call both tools and synthesise the answer."
+  },
+  {
+    "id": 9,
+    "question": "Show me the revenue cohort retention curve for customers who signed up in January.",
+    "expected_tools": ["sql_query_tool", "chart_generator_tool"],
+    "routing_rationale": "Multi-step: (1) sql_query_tool for cohort data (Q1 from queries.sql), (2) chart_generator_tool to plot retention curve.",
+    "hand_written_sql": "-- From queries.sql Q1 (filtered to January cohorts):\nSELECT cohort_month, cohort_size, retention_pct_m1, retention_pct_m2, retention_pct_m3, retention_pct_m6, retention_pct_m12 FROM (/* Q1 full CTE */) WHERE cohort_month LIKE '%-01';",
+    "agent_actual_output": "PENDING_LIVE_RUN",
+    "notes": "Expected: line chart of retention at M1/M2/M3/M6/M12 milestones for Jan cohorts."
+  },
+  {
+    "id": 10,
+    "question": "Which product features have the lowest adoption rate?",
+    "expected_tools": ["sql_query_tool"],
+    "routing_rationale": "Feature adoption data lives in product_usage table — sql_query_tool with Q7-style conditional aggregation.",
+    "hand_written_sql": "SELECT feature_name, COUNT(DISTINCT customer_id) AS unique_users, ROUND(100.0 * COUNT(DISTINCT CASE WHEN session_count > 1 THEN customer_id END) / NULLIF(COUNT(DISTINCT customer_id), 0), 1) AS activation_rate_pct FROM (SELECT feature_name, customer_id, COUNT(session_id) AS session_count FROM product_usage WHERE customer_id IS NOT NULL GROUP BY feature_name, customer_id) GROUP BY feature_name ORDER BY activation_rate_pct ASC LIMIT 5;",
+    "agent_actual_output": "PENDING_LIVE_RUN",
+    "notes": "Typo variants (anaytics, dashbaord) should appear at bottom with 0% activation."
+  },
+  {
+    "id": 11,
+    "question": "Find customers with overlapping subscriptions and calculate the double-billing impact.",
+    "expected_tools": ["sql_query_tool"],
+    "routing_rationale": "Self-JOIN with date range overlap logic — sql_query_tool (maps to Q4 in queries.sql).",
+    "hand_written_sql": "-- From queries.sql Q4:\nSELECT customer_id, sub_a_id AS original_sub, sub_b_id AS overlapping_sub, overlap_days, double_billed_amount FROM (/* Q4 self-JOIN CTE */) WHERE overlap_days > 0 ORDER BY double_billed_amount DESC LIMIT 10;",
+    "agent_actual_output": "PENDING_LIVE_RUN",
+    "notes": "494 overlap pairs found. Total double-billed amounts in hundreds of thousands."
+  },
+  {
+    "id": 12,
+    "question": "Compare the churn rate between customers on the Pro plan vs. Basic plan, and forecast the trend for the next quarter.",
+    "expected_tools": ["sql_query_tool", "forecast_tool"],
+    "routing_rationale": "Multi-step: (1) sql_query_tool for plan-level churn comparison, (2) forecast_tool for 90-day MRR/revenue trend.",
+    "hand_written_sql": "SELECT plan_name, COUNT(DISTINCT customer_id) AS total_customers, COUNT(DISTINCT CASE WHEN status = 'cancelled' THEN customer_id END) AS churned, ROUND(100.0 * COUNT(DISTINCT CASE WHEN status = 'cancelled' THEN customer_id END) / NULLIF(COUNT(DISTINCT customer_id), 0), 2) AS churn_rate_pct FROM subscriptions WHERE plan_name IN ('pro', 'basic') GROUP BY plan_name;",
+    "agent_actual_output": "PENDING_LIVE_RUN",
+    "notes": "Complex multi-tool chain. Agent must compare Pro vs Basic AND produce 90-day forecast."
+  }
+]

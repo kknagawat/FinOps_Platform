@@ -1,0 +1,841 @@
+subscription_id,customer_id,plan_name,mrr,currency,start_date,end_date,status,billing_cycle,auto_renew
+SUB-00457,CUST-0490,Professional,99,GBP,07-Jan-2024,N/A,active,annual,1
+SUB-00915,CUST-0069,Scale,49,USD,30/12/2021,,active,monthly,True
+SUB-00617,CUST-0424,Starter,29,USD,30-Mar-2023,null,active,annual,True
+SUB-00296,CUST-0015,Premium,999,USD,2024-03-02T00:00:00,,active,annual,True
+SUB-00410,CUST-0104,Pro,99,AED,2023-02-06,24/09/2023,cancelled,quarterly,Y
+SUB-00393,CUST-0409,FREE,0,GBP,2022-03-13T00:00:00,,active,annual,False
+SUB-00792,CUST-0436,Free,0,GBP,12/25/2024 00:00,NaT,active,quarterly,False
+SUB-00516,CUST-0085,Basic,29,USD,07-23-2025,07-09-2026,cancelled,monthly,N
+SUB-00738,CUST-0487,basic,29,EUR,12-28-2023,04-05-2024,Cancelled,quarterly,no
+SUB-00058,CUST-0349,Pro,99,GBP,05-07-2024,null,active,annual,True
+SUB-00240,CUST-0095,ENTERPRISE,999,GBP,2024/01/16,2024/08/18,Cancelled,quarterly,N
+SUB-00374,CUST-0281,BASIC,29,USD,"Jul 30, 2022",,active,monthly,Y
+SUB-00289,CUST-0080,Enterprise,999,USD,"Jul 24, 2021",,active,annual,Y
+SUB-00482,CUST-0489,Professional,99,USD,10-14-2021,,active,annual,False
+SUB-00908,CUST-0118,enterprise,99,USD,30-Oct-2022,,active,monthly,True
+SUB-00903,CUST-0093,Growth,249,USD,04-05-2022,,active,monthly,True
+SUB-00043,CUST-0158,,0,USD,2025-01-18,10/11/2025 00:00,cancelled,monthly,True
+SUB-00593,CUST-0234,Premium,999,GBP,2021/08/20,,active,annual,no
+SUB-00011,CUST-0333,Basic,29,GBP,14/11/2024,N/A,active,quarterly,no
+SUB-00655,CUST-0232,Starter,29,USD,2022/10/18,14-Mar-2023,Cancelled,quarterly,True
+SUB-00086,CUST-0299,SCALE,499,EUR,2022/11/21,,active,monthly,1
+SUB-00176,CUST-0012,scale,499,EUR,2024-11-14T00:00:00,N/A,active,monthly,True
+SUB-00301,CUST-0130,SCALE,499,GBP,03/12/2021,26-Jul-2022,expired,annual,1
+SUB-00197,CUST-0067,,999,GBP,29-Nov-2022,,active,monthly,false
+SUB-00596,CUST-0235,basic,29,USD,"Apr 24, 2025",NaT,active,annual,0
+SUB-00031,CUST-0367,Premium,999,EUR,06-Mar-2025,01-Mar-2026,EXPIRED,monthly,false
+SUB-00484,CUST-0413,PRO,99,AED,21/06/2024,,active,monthly,true
+SUB-00659,CUST-0300,BASIC,-29,USD,2024/05/10,2024-08-18T00:00:00,EXPIRED,annual,1
+SUB-00577,CUST-0483,,499,EUR,03-14-2022,NaT,active,monthly,False
+SUB-00232,CUST-0400,Enterprise,999,USD,12-Sep-2022,,active,monthly,False
+SUB-00125,CUST-0145,FREE,6,EUR,2023/10/22,,active,monthly,0
+SUB-00148,CUST-0007,pro,99,EUR,30/04/2024,,active,annual,0
+SUB-00786,CUST-0278,Enterprise,999,USD,15/10/2021,,active,monthly,1
+SUB-00427,CUST-0146,Scale,499,USD,"Oct 06, 2022",09-17-2023,Cancelled,monthly,yes
+SUB-00417,CUST-0470,ENTERPRISE,999,USD,02/12/2023 00:00,NaT,active,annual,1
+SUB-00039,CUST-0455,Scale,499,AED,"Dec 26, 2024",NaT,active,annual,Y
+SUB-00046,CUST-0222,Starter,29,USD,2025-03-27,2025/08/31,cancelled,monthly,False
+SUB-00734,CUST-0278,premium,999,EUR,2024/07/04,09-19-2024,EXPIRED,monthly,true
+SUB-00224,CUST-0033,Pro,99,USD,05/06/2024 00:00,N/A,active,monthly,yes
+SUB-00027,CUST-0217,Premium,999,EUR,"Aug 09, 2025",18-Feb-2026,cancelled,monthly,Y
+SUB-00308,CUST-0363,FREE,0,GBP,20-Dec-2021,NaT,active,quarterly,no
+SUB-00234,CUST-0500,scale,499,USD,2025/09/18,29-Jan-2026,expired,monthly,False
+SUB-00619,CUST-0256,,99,EUR,2023/10/15,N/A,active,monthly,N
+SUB-00571,CUST-0385,Starter,29,EUR,10-29-2022,,active,quarterly,1
+SUB-00563,CUST-0348,scale,499,AED,01-Dec-2021,NaT,active,annual,Y
+SUB-00084,CUST-0027,Premium,999,USD,2024/06/12,N/A,active,monthly,False
+SUB-00031,CUST-0367,Premium,999,EUR,06-Mar-2025,01-Mar-2026,EXPIRED,monthly,false
+SUB-00402,CUST-0241,,29,EUR,"Mar 24, 2023",NaT,active,annual,False
+SUB-00004,CUST-0483,Scale,499,USD,2024-02-12T00:00:00,null,active,quarterly,1
+SUB-00321,CUST-0394,,29,USD,"Feb 17, 2025",null,active,monthly,no
+SUB-00151,CUST-0488,Growth,249,USD,29-Apr-2024,,active,monthly,yes
+SUB-00424,CUST-0035,PRO,99,AED,2022/11/04,NaT,active,quarterly,1
+SUB-00350,CUST-0032,scale,499,USD,2022/06/14,,active,quarterly,no
+SUB-00429,CUST-0127,Scale,499,USD,2022/08/27,04/08/2023,expired,monthly,false
+SUB-00214,CUST-0423,FREE,0,USD,2025-08-22T00:00:00,null,active,monthly,false
+SUB-00130,CUST-0265,PRO,99,AED,"Jun 07, 2021",,active,monthly,1
+SUB-00685,CUST-0099,enterprise,999,USD,12/13/2022 00:00,10/29/2023 00:00,EXPIRED,monthly,1
+SUB-00225,CUST-0405,premium,999,USD,09/08/2027,"Jan 25, 2022",EXPIRED,quarterly,0
+SUB-00575,CUST-0165,basic,29,GBP,"Dec 16, 2023",NaT,active,annual,Y
+SUB-00211,CUST-0082,Professional,99,GBP,2024-01-03,N/A,active,quarterly,0
+SUB-00679,CUST-0390,Professional,99,USD,2024-12-12,NaT,active,quarterly,1
+SUB-00610,CUST-0436,ENTERPRISE,999,USD,02/09/2021,2022/08/15,Cancelled,monthly,True
+SUB-00306,CUST-0255,PRO,99,GBP,2024-10-18T00:00:00,09/26/2025 00:00,Cancelled,monthly,Y
+SUB-00756,CUST-0461,FREE,0,USD,2023-06-02T00:00:00,,active,monthly,False
+SUB-00079,CUST-0384,BASIC,29,USD,11-22-2023,null,active,monthly,N
+SUB-00433,CUST-0161,Growth,249,EUR,2023-09-08,"Mar 04, 2024",expired,monthly,0
+SUB-00973,CUST-0167,Starter,99,USD,"May 02, 2025",,active,monthly,True
+SUB-00466,CUST-0335,growth,249,USD,05-Oct-2023,,active,monthly,0
+SUB-00307,CUST-0188,Pro,99,EUR,2022-10-04,null,active,monthly,0
+SUB-00390,CUST-0242,free,0,GBP,05-02-2022,null,active,monthly,1
+SUB-00483,CUST-0400,free,0,AED,2024/01/09,,active,monthly,1
+SUB-00175,CUST-0082,Scale,499,USD,01-30-2024,null,active,monthly,true
+SUB-00331,CUST-0330,enterprise,999,AED,08/12/2022 00:00,null,active,quarterly,1
+SUB-00262,CUST-0378,basic,29,USD,"Aug 10, 2025",,active,monthly,true
+SUB-00091,CUST-0282,Pro,99,USD,23-Jan-2022,,active,monthly,1
+SUB-00397,CUST-0050,PRO,99,GBP,19/07/2021,16/01/2022,cancelled,monthly,0
+SUB-00598,CUST-0254,Premium,999,AED,2024-05-25T00:00:00,NaT,active,annual,N
+SUB-00963,CUST-0013,pro,49,USD,2023/03/15,,active,monthly,True
+SUB-00615,CUST-0365,Premium,999,USD,11/01/2023,2023-04-16T00:00:00,Cancelled,monthly,True
+SUB-00500,CUST-0351,growth,249,USD,2022-02-28,,active,monthly,0
+SUB-00340,CUST-0470,Pro,99,GBP,"Jan 14, 2022",null,active,monthly,N
+SUB-00311,CUST-0046,enterprise,999,USD,16-Sep-2024,,active,quarterly,True
+SUB-00645,CUST-0415,premium,999,GBP,03-Jun-2021,,active,quarterly,0
+SUB-00030,CUST-0239,FREE,0,EUR,2023/03/21,NaT,active,monthly,yes
+SUB-00451,CUST-0226,premium,999,USD,2022-11-30T00:00:00,"Apr 09, 2023",cancelled,monthly,True
+SUB-00104,CUST-0030,FREE,0,EUR,11-10-2021,2022/10/18,Cancelled,monthly,True
+SUB-00450,CUST-0411,Free,0,AED,2024-09-12,24/05/2025,EXPIRED,monthly,0
+SUB-00050,CUST-0011,pro,99,USD,23-Nov-2022,N/A,active,quarterly,True
+SUB-00261,CUST-0095,enterprise,999,AED,2023/04/05,,active,monthly,1
+SUB-00696,CUST-0015,FREE,0,USD,"Dec 10, 2023",,active,quarterly,1
+SUB-00129,CUST-0345,PRO,99,USD,11/26/2022 00:00,null,active,monthly,false
+SUB-00077,CUST-0317,growth,249,USD,10/17/2021 00:00,02/05/2022 00:00,expired,monthly,1
+SUB-00639,CUST-0075,growth,249,USD,"Sep 08, 2021",,active,monthly,0
+SUB-00122,CUST-0074,basic,29,EUR,2025/07/14,NaT,active,quarterly,False
+SUB-00111,CUST-0077,growth,249,USD,"Sep 09, 2025",NaT,active,quarterly,no
+SUB-00771,CUST-0086,growth,249,USD,2021-09-04,02-04-2022,EXPIRED,annual,False
+SUB-00352,CUST-0423,Growth,249,USD,16/07/2025,2025-08-18,Cancelled,monthly,0
+SUB-00455,CUST-0302,Free,0,USD,2025-03-29T00:00:00,02/26/2026 00:00,expired,monthly,False
+SUB-00674,CUST-0287,Free,0,AED,04/05/2022 00:00,,active,monthly,True
+SUB-00456,CUST-0499,growth,249,USD,14/09/2021,,active,quarterly,false
+SUB-00665,CUST-0026,SCALE,499,USD,08-Feb-2024,N/A,active,monthly,false
+SUB-00495,CUST-0022,SCALE,499,USD,"Jun 10, 2023",,active,monthly,true
+SUB-00701,CUST-0008,Starter,29,EUR,01/28/2024 00:00,NaT,active,monthly,false
+SUB-00272,CUST-0392,Professional,99,EUR,"Aug 11, 2023",,active,monthly,False
+SUB-00164,CUST-0362,pro,99,GBP,2022-02-25,27-May-2022,cancelled,monthly,0
+SUB-00588,CUST-0091,,0,USD,"Mar 27, 2025",NaT,active,annual,N
+SUB-00137,CUST-0411,growth,249,USD,02/12/2021,,active,quarterly,false
+SUB-00255,CUST-0090,Free,0,USD,07-Apr-2022,,active,monthly,True
+SUB-00267,CUST-0482,BASIC,29,GBP,"Mar 30, 2024",2025-01-15,expired,monthly,N
+SUB-00743,CUST-0415,Scale,-499,EUR,2024/09/28,,active,quarterly,no
+SUB-00178,CUST-0306,Free,0,USD,07-12-2022,null,active,monthly,False
+SUB-00093,CUST-0023,ENTERPRISE,999,USD,05-18-2023,NaT,active,annual,0
+SUB-00423,CUST-0291,scale,499,USD,2024/06/05,,active,annual,0
+SUB-00589,CUST-0302,free,0,USD,06/12/2025 00:00,N/A,active,monthly,1
+SUB-00988,CUST-0021,Free,499,USD,19-Jan-2023,,active,monthly,True
+SUB-00370,CUST-0064,basic,29,USD,2023-03-31T00:00:00,NaT,active,monthly,Y
+SUB-00048,CUST-0327,enterprise,999,USD,05-16-2025,NaT,active,quarterly,0
+SUB-00718,CUST-0231,pro,99,USD,05/03/2024 00:00,2025-03-19,cancelled,annual,0
+SUB-00749,CUST-0020,Scale,499,USD,2023/12/05,"Oct 10, 2024",expired,quarterly,True
+SUB-00445,CUST-0231,FREE,0,USD,2025-09-01T00:00:00,,active,monthly,True
+SUB-00789,CUST-0154,premium,999,USD,2021/08/14,NaT,active,monthly,N
+SUB-00248,CUST-0162,Professional,99,USD,"Feb 07, 2025","Aug 11, 2025",expired,monthly,True
+SUB-00418,CUST-0302,free,0,AED,03-29-2025,N/A,active,monthly,False
+SUB-00339,CUST-0011,SCALE,499,USD,07-Mar-2025,,active,monthly,true
+SUB-00328,CUST-0011,Scale,499,AED,"Feb 05, 2023",2023-10-28T00:00:00,EXPIRED,monthly,0
+SUB-00750,CUST-0117,growth,249,USD,2024-12-13,null,active,monthly,True
+SUB-00467,CUST-0041,basic,29,EUR,09-16-2024,,active,monthly,True
+SUB-00530,CUST-0469,Free,0,AED,01-13-2025,07/11/2025 00:00,Cancelled,monthly,0
+SUB-00024,CUST-0380,,999,USD,"Feb 05, 2022",22-Mar-2022,cancelled,monthly,false
+SUB-00405,CUST-0352,Pro,-99,GBP,11-05-2021,2022-08-10T00:00:00,expired,monthly,True
+SUB-00658,CUST-0412,PRO,99,EUR,2024/10/26,N/A,active,annual,1
+SUB-00692,CUST-0203,PRO,99,GBP,10-11-2023,,active,quarterly,no
+SUB-00140,CUST-0324,Professional,107,USD,2021/08/09,10/11/2021,EXPIRED,monthly,False
+SUB-00330,CUST-0272,PRO,99,GBP,17-Oct-2022,02/21/2023 00:00,expired,quarterly,0
+SUB-00508,CUST-0343,free,0,USD,11/08/2024 00:00,NaT,active,monthly,true
+SUB-00034,CUST-0425,Scale,499,USD,2025-06-21T00:00:00,,active,quarterly,1
+SUB-00641,CUST-0093,basic,29,USD,03-Feb-2022,NaT,active,annual,false
+SUB-00637,CUST-0330,FREE,0,AED,09-May-2022,,active,monthly,True
+SUB-00426,CUST-0028,basic,29,USD,2027/06/22,"Aug 28, 2022",Cancelled,monthly,Y
+SUB-00061,CUST-0300,BASIC,29,GBP,2023-01-17T00:00:00,2023-10-16T00:00:00,Cancelled,annual,False
+SUB-00442,CUST-0387,growth,249,AED,07/02/2024 00:00,NaT,active,monthly,1
+SUB-00904,CUST-0111,Basic,99,USD,11/11/2024,,active,monthly,True
+SUB-00408,CUST-0034,BASIC,29,EUR,2022-11-21T00:00:00,NaT,active,monthly,true
+SUB-00335,CUST-0028,ENTERPRISE,999,USD,12-02-2021,,active,monthly,0
+SUB-00706,CUST-0157,premium,999,USD,23/06/2023,18/03/2024,Cancelled,monthly,false
+SUB-00280,CUST-0489,Starter,29,GBP,2024-08-22T00:00:00,2025-01-21T00:00:00,Cancelled,monthly,False
+SUB-00021,CUST-0073,enterprise,999,EUR,19-Nov-2022,,active,annual,False
+SUB-00376,CUST-0262,enterprise,999,AED,2024-03-05,"Nov 02, 2024",cancelled,monthly,no
+SUB-00252,CUST-0493,Starter,29,USD,2023-05-28T00:00:00,null,active,monthly,N
+SUB-00095,CUST-0278,Free,0,USD,12-31-2021,"Aug 28, 2022",EXPIRED,monthly,N
+SUB-00740,CUST-0483,free,0,USD,29-Sep-2025,NaT,active,monthly,False
+SUB-00045,CUST-0140,Growth,249,USD,2021-12-18T00:00:00,07-31-2022,EXPIRED,quarterly,True
+SUB-00218,CUST-0132,premium,999,USD,2022/09/10,26-Jan-2023,Cancelled,quarterly,N
+SUB-00064,CUST-0161,,0,EUR,04/04/2025 00:00,N/A,active,annual,0
+SUB-00599,CUST-0067,ENTERPRISE,999,GBP,2024-04-23,NaT,active,monthly,Y
+SUB-00560,CUST-0190,scale,499,USD,16-Apr-2025,NaT,active,quarterly,N
+SUB-00425,CUST-0219,premium,999,EUR,28-Feb-2024,,active,monthly,true
+SUB-00236,CUST-0304,SCALE,499,GBP,09/03/2021 00:00,,active,monthly,no
+SUB-00123,CUST-0061,enterprise,999,USD,2022/12/13,null,active,quarterly,1
+SUB-00720,CUST-0095,Professional,-99,GBP,2022-05-26T00:00:00,N/A,active,annual,1
+SUB-00793,CUST-0076,premium,999,GBP,05/10/2022,NaT,active,quarterly,Y
+SUB-00629,CUST-0137,Scale,499,GBP,02/06/2022 00:00,,active,monthly,1
+SUB-00177,CUST-0248,growth,249,USD,2023-02-05T00:00:00,2023-07-04,cancelled,monthly,yes
+SUB-00394,CUST-0267,Starter,29,GBP,22-Aug-2024,06/29/2025 00:00,expired,monthly,False
+SUB-00117,CUST-0365,SCALE,-499,USD,31/07/2025,09-16-2025,EXPIRED,quarterly,0
+SUB-00110,CUST-0303,Basic,29,AED,04-Jan-2022,,active,annual,0
+SUB-00595,CUST-0150,premium,999,AED,22/02/2022,28/01/2023,Cancelled,monthly,False
+SUB-00274,CUST-0006,premium,999,GBP,01/27/2022 00:00,,active,annual,True
+SUB-00247,CUST-0396,Pro,99,AED,2022-07-28,,active,quarterly,False
+SUB-00201,CUST-0190,enterprise,994,EUR,2023-01-19,,active,quarterly,no
+SUB-00281,CUST-0236,FREE,0,USD,"May 06, 2024",12-26-2024,EXPIRED,monthly,Y
+SUB-00341,CUST-0182,Premium,999,USD,2024/03/10,"Feb 05, 2025",EXPIRED,quarterly,True
+SUB-00194,CUST-0217,growth,249,EUR,16/07/2021,"Dec 24, 2021",cancelled,quarterly,True
+SUB-00464,CUST-0429,Free,0,USD,10/25/2021 00:00,NaT,active,monthly,true
+SUB-00636,CUST-0042,FREE,0,USD,08-19-2024,,active,quarterly,0
+SUB-00220,CUST-0087,Free,0,USD,13-Feb-2024,"Sep 24, 2024",cancelled,monthly,false
+SUB-00582,CUST-0263,ENTERPRISE,999,USD,2022-02-27T00:00:00,,active,monthly,false
+SUB-00053,CUST-0364,ENTERPRISE,999,AED,04/26/2024 00:00,,active,monthly,Y
+SUB-00512,CUST-0444,basic,29,GBP,25/07/2022,,active,quarterly,0
+SUB-00325,CUST-0004,growth,249,AED,2027-09-01T00:00:00,,active,monthly,no
+SUB-00349,CUST-0272,PRO,99,EUR,01-31-2024,N/A,active,monthly,N
+SUB-00762,CUST-0466,Growth,249,USD,2025-04-05T00:00:00,,active,monthly,True
+SUB-00085,CUST-0148,BASIC,29,AED,2024/05/30,N/A,active,quarterly,True
+SUB-00186,CUST-0413,BASIC,29,EUR,2023-05-11,,active,monthly,true
+SUB-00365,CUST-0142,Pro,99,USD,"Jun 16, 2023",,active,monthly,False
+SUB-00778,CUST-0087,SCALE,499,AED,04-29-2022,"Aug 27, 2022",expired,monthly,Y
+SUB-00003,CUST-0269,PRO,99,USD,03/03/2025,N/A,active,monthly,1
+SUB-00060,CUST-0071,Growth,249,AED,01-02-2023,,active,monthly,true
+SUB-00764,CUST-0023,Professional,99,USD,"Feb 06, 2024",,active,quarterly,0
+SUB-00627,CUST-0315,PRO,99,USD,2025-07-27T00:00:00,null,active,quarterly,False
+SUB-00298,CUST-0028,Growth,249,GBP,09-16-2024,"Nov 21, 2024",cancelled,monthly,no
+SUB-00513,CUST-0110,PRO,99,EUR,30/06/2023,2023/12/08,cancelled,quarterly,0
+SUB-00469,CUST-0099,Growth,249,EUR,10/14/2021 00:00,2022-03-22T00:00:00,EXPIRED,monthly,0
+SUB-00951,CUST-0024,ENTERPRISE,499,USD,2023-10-11T00:00:00,,active,monthly,True
+SUB-00742,CUST-0381,Growth,249,EUR,2022-09-09,NaT,active,monthly,false
+SUB-00478,CUST-0376,premium,999,USD,10/31/2025 00:00,NaT,active,monthly,yes
+SUB-00200,CUST-0131,growth,249,USD,08/06/2021 00:00,NaT,active,monthly,False
+SUB-00553,CUST-0038,Professional,99,USD,2023-12-12,2024/07/01,EXPIRED,monthly,yes
+SUB-00259,CUST-0241,Enterprise,999,AED,18/02/2022,N/A,active,annual,N
+SUB-00501,CUST-0175,PRO,99,USD,2023-12-03T00:00:00,2024-11-28T00:00:00,cancelled,quarterly,Y
+SUB-00286,CUST-0186,pro,99,AED,2022/05/12,NaT,active,quarterly,True
+SUB-00549,CUST-0399,Scale,499,AED,2022-01-16,,active,annual,False
+SUB-00087,CUST-0419,ENTERPRISE,999,USD,08/30/2025 00:00,,active,quarterly,no
+SUB-00101,CUST-0068,Basic,29,USD,"Dec 27, 2022",NaT,active,monthly,False
+SUB-00746,CUST-0073,SCALE,499,USD,"Jul 20, 2022",,active,monthly,True
+SUB-00566,CUST-0235,Scale,499,USD,2021/08/02,NaT,active,monthly,yes
+SUB-00419,CUST-0273,Free,0,USD,2024/11/14,null,active,quarterly,yes
+SUB-00532,CUST-0339,Enterprise,999,USD,17-Oct-2022,NaT,active,monthly,yes
+SUB-00675,CUST-0061,Enterprise,999,USD,2021-11-29T00:00:00,,active,annual,yes
+SUB-00042,CUST-0469,Pro,99,EUR,"Aug 23, 2022",N/A,active,monthly,False
+SUB-00470,CUST-0495,Scale,499,AED,02-08-2025,,active,monthly,True
+SUB-00372,CUST-0368,Pro,99,AED,03-14-2024,"May 17, 2024",expired,monthly,1
+SUB-00254,CUST-0066,Free,0,USD,2022/04/15,10-Jan-2023,cancelled,quarterly,1
+SUB-00660,CUST-0321,FREE,0,USD,07/22/2021 00:00,NaT,active,annual,Y
+SUB-00138,CUST-0081,free,0,USD,20-Aug-2023,null,active,annual,false
+SUB-00319,CUST-0487,BASIC,29,AED,2024-07-11,N/A,active,annual,False
+SUB-00741,CUST-0001,Premium,999,USD,31/05/2022,null,active,monthly,1
+SUB-00384,CUST-0331,,99,USD,2023-10-15T00:00:00,,active,monthly,1
+SUB-00977,CUST-0175,enterprise,99,USD,2023-12-03T00:00:00,,active,monthly,True
+SUB-00997,CUST-0041,premium,249,USD,09-16-2024,,active,monthly,True
+SUB-00366,CUST-0075,Enterprise,999,AED,"Mar 18, 2023",,active,quarterly,no
+SUB-00078,CUST-0470,Professional,99,EUR,2022-01-02T00:00:00,,active,monthly,no
+SUB-00263,CUST-0122,pro,99,EUR,22-Aug-2023,,active,quarterly,1
+SUB-00049,CUST-0353,Professional,99,USD,15-May-2022,N/A,active,monthly,True
+SUB-00342,CUST-0013,SCALE,499,USD,2023/03/15,null,active,annual,1
+SUB-00120,CUST-0094,FREE,0,EUR,2024-04-09T00:00:00,12-May-2024,Cancelled,annual,true
+SUB-00256,CUST-0321,Growth,-249,USD,26-Nov-2022,,active,annual,True
+SUB-00640,CUST-0236,Scale,499,USD,12/01/2024,,active,monthly,1
+SUB-00758,CUST-0490,SCALE,499,USD,12/22/2021 00:00,NaT,active,quarterly,True
+SUB-00502,CUST-0440,premium,999,GBP,"Mar 26, 2022",10/22/2022 00:00,expired,annual,True
+SUB-00663,CUST-0476,growth,249,GBP,"Oct 22, 2025",,active,monthly,0
+SUB-00597,CUST-0394,pro,99,EUR,24/07/2021,NaT,active,monthly,N
+SUB-00729,CUST-0286,,0,EUR,05/01/2024 00:00,NaT,active,monthly,False
+SUB-00473,CUST-0104,PRO,99,GBP,2022/03/30,NaT,active,annual,yes
+SUB-00709,CUST-0276,growth,249,USD,2025-04-04,10/06/2025,EXPIRED,quarterly,1
+SUB-00517,CUST-0424,PRO,99,USD,07-10-2022,2023-04-01,cancelled,monthly,N
+SUB-00227,CUST-0324,pro,99,GBP,2023/04/05,null,active,quarterly,false
+SUB-00769,CUST-0046,growth,249,AED,2023-08-14,null,active,monthly,0
+SUB-00013,CUST-0402,growth,249,AED,2021/06/16,null,active,monthly,True
+SUB-00448,CUST-0245,basic,29,AED,02-07-2024,2024-08-24,expired,monthly,true
+SUB-00557,CUST-0183,basic,29,AED,29/10/2023,N/A,active,annual,1
+SUB-00779,CUST-0046,Enterprise,999,USD,12-23-2022,NaT,active,monthly,False
+SUB-00072,CUST-0302,SCALE,499,GBP,23/06/2023,N/A,active,annual,0
+SUB-00303,CUST-0157,Basic,29,USD,"Aug 07, 2024",NaT,active,annual,true
+SUB-00422,CUST-0371,enterprise,999,GBP,12/29/2024 00:00,30-Nov-2025,Cancelled,monthly,1
+SUB-00037,CUST-0189,free,0,USD,2021-06-11,,active,monthly,True
+SUB-00230,CUST-0110,enterprise,999,EUR,24/03/2024,null,active,quarterly,false
+SUB-00698,CUST-0324,ENTERPRISE,999,USD,2024-10-19,N/A,active,monthly,0
+SUB-00182,CUST-0205,ENTERPRISE,999,EUR,2023-01-01T00:00:00,NaT,active,monthly,False
+SUB-00276,CUST-0449,SCALE,499,GBP,01-Sep-2025,"Jun 25, 2026",cancelled,annual,0
+SUB-00167,CUST-0023,Enterprise,999,GBP,2024-10-29,2025/08/13,EXPIRED,monthly,yes
+SUB-00244,CUST-0419,Enterprise,999,GBP,01-10-2024,null,active,monthly,true
+SUB-00614,CUST-0173,Free,0,USD,22-Apr-2023,NaT,active,annual,False
+SUB-00726,CUST-0200,,499,USD,03/12/2022,08/01/2023,EXPIRED,monthly,True
+SUB-00420,CUST-0166,Professional,99,AED,2024-08-03T00:00:00,2025/02/05,expired,monthly,no
+SUB-00555,CUST-0066,Scale,499,USD,2025-10-16,NaT,active,monthly,False
+SUB-00324,CUST-0030,Starter,29,USD,03-Apr-2025,23-Jan-2026,cancelled,monthly,true
+SUB-00592,CUST-0230,Starter,29,AED,04-07-2025,22/02/2026,expired,quarterly,true
+SUB-00782,CUST-0368,PRO,99,AED,24/08/2021,N/A,active,monthly,True
+SUB-00404,CUST-0025,Enterprise,999,EUR,2024/09/12,07-03-2025,EXPIRED,monthly,True
+SUB-00562,CUST-0216,Premium,999,GBP,2024/08/16,NaT,active,quarterly,1
+SUB-00336,CUST-0162,FREE,0,USD,2023/12/02,,active,quarterly,true
+SUB-00010,CUST-0224,growth,249,EUR,2023/01/05,NaT,active,monthly,False
+SUB-00056,CUST-0179,ENTERPRISE,999,USD,2023/08/10,,active,monthly,no
+SUB-00107,CUST-0277,basic,29,USD,12/10/2024,"Jan 05, 2025",cancelled,monthly,False
+SUB-00277,CUST-0030,premium,999,GBP,2022/01/02,null,active,quarterly,False
+SUB-00398,CUST-0184,growth,249,EUR,22-Jun-2021,,active,monthly,1
+SUB-00540,CUST-0021,growth,249,USD,19-Jan-2023,null,active,monthly,0
+SUB-00428,CUST-0088,growth,-249,USD,22/07/2022,NaT,active,quarterly,True
+SUB-00662,CUST-0363,BASIC,29,AED,2023-03-11,NaT,active,monthly,Y
+SUB-00159,CUST-0129,Starter,29,USD,2024-07-17,null,active,annual,1
+SUB-00100,CUST-0370,enterprise,999,AED,2024/05/31,,active,annual,0
+SUB-00368,CUST-0015,premium,999,EUR,01-09-2025,N/A,active,annual,yes
+SUB-00705,CUST-0344,free,0,USD,23-Apr-2025,null,active,monthly,True
+SUB-00320,CUST-0199,pro,99,USD,2021-11-19T00:00:00,NaT,active,monthly,0
+SUB-00621,CUST-0074,premium,999,USD,2021-06-15T00:00:00,,active,monthly,yes
+SUB-00507,CUST-0338,Free,0,AED,26/02/2023,,active,monthly,True
+SUB-00714,CUST-0402,free,0,AED,06/01/2022,01-04-2023,Cancelled,quarterly,0
+SUB-00752,CUST-0423,Basic,29,EUR,2024/09/29,2025-04-17,Cancelled,quarterly,False
+SUB-00943,CUST-0095,Pro,99,USD,05/17/2024 00:00,,active,monthly,True
+SUB-00447,CUST-0328,Starter,29,EUR,2023-01-27T00:00:00,,active,quarterly,True
+SUB-00707,CUST-0230,enterprise,999,GBP,09/24/2025 00:00,NaT,active,monthly,0
+SUB-00458,CUST-0125,pro,99,USD,28-Nov-2024,,active,annual,1
+SUB-00282,CUST-0472,Scale,499,USD,29-Jul-2021,null,active,monthly,false
+SUB-00278,CUST-0183,BASIC,29,USD,2021-06-27T00:00:00,2022/04/01,expired,monthly,1
+SUB-00697,CUST-0125,Growth,249,USD,11-11-2022,N/A,active,monthly,N
+SUB-00421,CUST-0394,Premium,999,USD,29-Oct-2025,"Apr 28, 2026",expired,annual,no
+SUB-00044,CUST-0232,Growth,249,USD,11-26-2022,2023-10-03T00:00:00,cancelled,quarterly,1
+SUB-00426,CUST-0028,basic,29,USD,2027/06/22,"Aug 28, 2022",Cancelled,monthly,Y
+SUB-00199,CUST-0007,ENTERPRISE,999,USD,04/29/2023 00:00,N/A,active,monthly,yes
+SUB-00204,CUST-0055,premium,999,AED,2025-09-08T00:00:00,,active,annual,0
+SUB-00360,CUST-0483,SCALE,-499,USD,08-18-2022,null,active,monthly,Y
+SUB-00688,CUST-0485,Enterprise,999,AED,"Jun 23, 2024",NaT,active,annual,N
+SUB-00097,CUST-0302,growth,249,USD,2023-02-06T00:00:00,N/A,active,monthly,0
+SUB-00432,CUST-0316,growth,249,GBP,23/11/2023,NaT,active,annual,true
+SUB-00686,CUST-0305,free,0,AED,2024-08-17,N/A,active,annual,0
+SUB-00185,CUST-0093,Scale,499,EUR,04-05-2022,11-19-2022,EXPIRED,annual,Y
+SUB-00134,CUST-0149,Enterprise,999,USD,2024/04/05,30-Nov-2024,cancelled,annual,1
+SUB-00787,CUST-0188,growth,249,EUR,2024-07-16T00:00:00,N/A,active,monthly,1
+SUB-00377,CUST-0042,FREE,0,EUR,"Jun 24, 2023",,active,quarterly,True
+SUB-00693,CUST-0029,growth,249,USD,2024/02/20,04-02-2024,Cancelled,monthly,True
+SUB-00453,CUST-0248,BASIC,29,GBP,08/23/2022 00:00,,active,monthly,Y
+SUB-00587,CUST-0425,SCALE,499,USD,2025-10-24T00:00:00,,active,quarterly,false
+SUB-00285,CUST-0208,ENTERPRISE,999,EUR,"Nov 25, 2024",null,active,annual,False
+SUB-00533,CUST-0063,Professional,99,USD,2023-09-24,09-Mar-2024,expired,monthly,0
+SUB-00344,CUST-0199,basic,29,USD,24-Apr-2025,NaT,active,annual,1
+SUB-00345,CUST-0178,,999,EUR,06/07/2024,27-Dec-2024,Cancelled,quarterly,False
+SUB-00644,CUST-0296,ENTERPRISE,999,AED,"Mar 03, 2022",26-Aug-2022,EXPIRED,monthly,N
+SUB-00444,CUST-0153,Starter,29,USD,08-11-2027,,active,monthly,0
+SUB-00098,CUST-0115,PRO,99,USD,17-Jul-2023,2024-03-23,cancelled,quarterly,1
+SUB-00201,CUST-0190,enterprise,999,EUR,2023-01-19,,active,quarterly,no
+SUB-00523,CUST-0028,Professional,99,USD,07/19/2025 00:00,N/A,active,quarterly,N
+SUB-00624,CUST-0293,basic,29,GBP,"Mar 29, 2023",13/06/2023,EXPIRED,annual,True
+SUB-00365,CUST-0142,Pro,99,USD,"Jun 16, 2023",,active,monthly,False
+SUB-00635,CUST-0327,free,0,USD,"Aug 17, 2023",,active,monthly,True
+SUB-00171,CUST-0358,scale,499,GBP,11/24/2022 00:00,06-23-2023,Cancelled,monthly,0
+SUB-00460,CUST-0121,enterprise,999,USD,12-Oct-2022,NaT,active,annual,0
+SUB-00105,CUST-0323,pro,99,USD,28/03/2022,,active,monthly,Y
+SUB-00649,CUST-0212,Professional,99,USD,02-22-2022,2022-08-15,cancelled,monthly,N
+SUB-00070,CUST-0154,growth,249,AED,2024/02/16,NaT,active,annual,0
+SUB-00055,CUST-0106,BASIC,29,USD,2022/07/02,NaT,active,annual,yes
+SUB-00798,CUST-0439,Enterprise,999,AED,2023-08-14T00:00:00,,active,annual,false
+SUB-00609,CUST-0424,ENTERPRISE,999,USD,2022-07-20T00:00:00,11/15/2022 00:00,Cancelled,quarterly,False
+SUB-00767,CUST-0032,premium,999,USD,"Jun 18, 2022",,active,monthly,False
+SUB-00925,CUST-0029,Starter,99,USD,05/03/2023 00:00,,active,monthly,True
+SUB-00334,CUST-0478,,999,GBP,22/05/2024,,active,monthly,True
+SUB-00541,CUST-0404,Professional,99,GBP,06-16-2025,null,active,monthly,0
+SUB-00678,CUST-0160,Pro,99,USD,11/10/2021,N/A,active,monthly,true
+SUB-00600,CUST-0096,premium,999,USD,30-Sep-2022,N/A,active,annual,N
+SUB-00033,CUST-0439,FREE,0,EUR,29/08/2027,NaT,active,quarterly,True
+SUB-00196,CUST-0257,,29,USD,2024/10/21,,active,annual,false
+SUB-00156,CUST-0111,BASIC,29,USD,11/11/2024,2025-03-05,EXPIRED,monthly,yes
+SUB-00733,CUST-0250,scale,499,USD,01/17/2023 00:00,null,active,annual,no
+SUB-00537,CUST-0243,SCALE,499,USD,23/10/2022,N/A,active,monthly,false
+SUB-00143,CUST-0288,Enterprise,999,EUR,2024-02-15T00:00:00,14-Dec-2024,expired,quarterly,N
+SUB-00983,CUST-0046,Free,49,USD,16-Sep-2024,,active,monthly,True
+SUB-00022,CUST-0038,,499,GBP,12/03/2024 00:00,08-04-2025,EXPIRED,monthly,True
+SUB-00006,CUST-0163,Starter,29,USD,03/12/2025 00:00,,active,annual,Y
+SUB-00412,CUST-0284,premium,999,USD,12-06-2024,NaT,active,monthly,0
+SUB-00499,CUST-0354,Pro,99,USD,08-24-2024,2025-08-17,cancelled,monthly,false
+SUB-00657,CUST-0229,Scale,499,USD,"May 11, 2025",,active,quarterly,True
+SUB-00068,CUST-0379,basic,29,GBP,"Sep 06, 2027",2025/08/18,EXPIRED,monthly,N
+SUB-00723,CUST-0044,FREE,0,USD,2024-04-11T00:00:00,NaT,active,monthly,false
+SUB-00684,CUST-0085,Growth,249,USD,23/12/2022,NaT,active,monthly,1
+SUB-00613,CUST-0468,Scale,499,EUR,10/01/2023 00:00,2024/04/14,EXPIRED,monthly,0
+SUB-00719,CUST-0108,pro,99,GBP,"Apr 24, 2024",,active,monthly,False
+SUB-00526,CUST-0436,PRO,99,GBP,14/03/2022,NaT,active,monthly,no
+SUB-00715,CUST-0131,free,0,AED,2025-07-15T00:00:00,NaT,active,quarterly,yes
+SUB-00147,CUST-0165,scale,499,GBP,22/05/2025,,active,annual,N
+SUB-00628,CUST-0282,Pro,99,USD,"Sep 28, 2022",NaT,active,quarterly,false
+SUB-00791,CUST-0046,enterprise,999,GBP,28-Mar-2022,23-Nov-2022,expired,monthly,Y
+SUB-00266,CUST-0065,Starter,29,USD,2022/09/09,,active,monthly,True
+SUB-00982,CUST-0031,pro,49,USD,09-Apr-2024,,active,monthly,True
+SUB-00168,CUST-0291,BASIC,29,USD,08-03-2024,,active,monthly,False
+SUB-00479,CUST-0060,Professional,99,AED,"Aug 06, 2023",,active,annual,False
+SUB-00023,CUST-0291,premium,999,USD,25-Oct-2024,N/A,active,quarterly,no
+SUB-00246,CUST-0439,Professional,99,EUR,"Sep 09, 2024",NaT,active,monthly,N
+SUB-00666,CUST-0343,FREE,0,EUR,2024-10-01,18/08/2025,cancelled,monthly,true
+SUB-00643,CUST-0398,Free,0,USD,2021-12-30,2022-06-22T00:00:00,expired,quarterly,true
+SUB-00354,CUST-0358,Premium,999,GBP,20-Mar-2025,N/A,active,monthly,N
+SUB-00556,CUST-0046,Basic,29,GBP,"Aug 01, 2023",20/04/2024,cancelled,monthly,1
+SUB-00067,CUST-0139,premium,999,USD,01/06/2022 00:00,null,active,monthly,False
+SUB-00229,CUST-0034,Scale,499,EUR,10-Mar-2025,NaT,active,monthly,false
+SUB-00293,CUST-0470,Free,0,AED,"May 21, 2025",null,active,quarterly,0
+SUB-00538,CUST-0357,,249,AED,2024/11/19,N/A,active,monthly,true
+SUB-00054,CUST-0076,Scale,499,EUR,2022-08-26,,active,quarterly,N
+SUB-00081,CUST-0099,BASIC,29,USD,2024-09-05,23-Nov-2024,expired,annual,no
+SUB-00551,CUST-0030,BASIC,29,AED,2023/02/28,,active,quarterly,True
+SUB-00534,CUST-0374,basic,29,USD,2024-07-06T00:00:00,,active,monthly,1
+SUB-00400,CUST-0395,Starter,29,USD,10/14/2023 00:00,,active,annual,True
+SUB-00299,CUST-0428,pro,99,USD,31-Jul-2021,,active,monthly,1
+SUB-00268,CUST-0400,Pro,99,AED,27-Jul-2024,NaT,active,monthly,N
+SUB-00625,CUST-0226,Starter,29,GBP,"Jan 12, 2025",,active,annual,1
+SUB-00273,CUST-0072,growth,249,GBP,02-08-2022,,active,annual,true
+SUB-00554,CUST-0022,Growth,249,EUR,2024-12-13T00:00:00,2025-07-03T00:00:00,expired,monthly,yes
+SUB-00401,CUST-0045,SCALE,499,GBP,30/10/2022,N/A,active,annual,N
+SUB-00112,CUST-0276,Starter,29,GBP,05/16/2024 00:00,null,active,monthly,false
+SUB-00380,CUST-0389,FREE,0,GBP,"Jul 16, 2025",NaT,active,monthly,False
+SUB-00245,CUST-0271,Scale,499,AED,2021-07-14T00:00:00,,active,monthly,false
+SUB-00652,CUST-0429,,999,AED,2024-01-02,,active,quarterly,False
+SUB-00310,CUST-0252,Starter,29,USD,03/21/2023 00:00,null,active,monthly,yes
+SUB-00066,CUST-0290,enterprise,999,EUR,2021-09-18,N/A,active,quarterly,0
+SUB-00216,CUST-0404,scale,499,USD,2025/05/03,2025-10-20,cancelled,monthly,False
+SUB-00257,CUST-0209,basic,29,AED,06-09-2024,,active,monthly,True
+SUB-00760,CUST-0460,FREE,0,USD,2022-01-29T00:00:00,2022-08-25,expired,quarterly,no
+SUB-00781,CUST-0142,Pro,99,EUR,08/23/2022 00:00,null,active,monthly,N
+SUB-00757,CUST-0369,,99,GBP,2023/05/12,N/A,active,quarterly,False
+SUB-00477,CUST-0488,,499,USD,2022/10/03,NaT,active,quarterly,1
+SUB-00754,CUST-0350,growth,249,GBP,2021-09-19,N/A,active,quarterly,False
+SUB-00088,CUST-0019,Growth,249,AED,23/10/2021,NaT,active,annual,true
+SUB-00288,CUST-0069,growth,249,USD,30/12/2021,null,active,monthly,0
+SUB-00788,CUST-0079,BASIC,29,USD,2024-08-12,null,active,quarterly,True
+SUB-00435,CUST-0188,Enterprise,999,EUR,06-Feb-2024,2024-06-27,expired,monthly,False
+SUB-00347,CUST-0446,Premium,999,USD,23/10/2021,08/10/2022,EXPIRED,monthly,N
+SUB-00389,CUST-0448,FREE,0,USD,2023-11-09,null,active,monthly,False
+SUB-00270,CUST-0026,growth,249,EUR,01/29/2023 00:00,N/A,active,monthly,true
+SUB-00009,CUST-0278,Scale,499,USD,05/07/2024 00:00,N/A,active,monthly,true
+SUB-00578,CUST-0382,SCALE,499,EUR,2025-06-24,,active,quarterly,N
+SUB-00210,CUST-0296,scale,499,USD,12/28/2023 00:00,30/11/2024,EXPIRED,quarterly,0
+SUB-00139,CUST-0007,basic,29,AED,2021-07-12T00:00:00,N/A,active,monthly,true
+SUB-00122,CUST-0074,basic,31,EUR,2025/07/14,NaT,active,quarterly,False
+SUB-00116,CUST-0076,FREE,0,USD,03/09/2024 00:00,,active,monthly,False
+SUB-00730,CUST-0220,pro,99,EUR,2023-06-14T00:00:00,,active,quarterly,false
+SUB-00795,CUST-0116,Professional,99,USD,"Nov 16, 2022",,active,monthly,N
+SUB-00297,CUST-0170,Professional,99,EUR,08-11-2024,NaT,active,quarterly,False
+SUB-00142,CUST-0263,Basic,29,GBP,02/09/2023 00:00,2023-06-22T00:00:00,cancelled,monthly,1
+SUB-00794,CUST-0287,ENTERPRISE,999,USD,10/04/2022 00:00,,active,monthly,Y
+SUB-00362,CUST-0168,Professional,99,EUR,2023/03/03,NaT,active,monthly,no
+SUB-00677,CUST-0216,,999,AED,"Jan 01, 2023",null,active,quarterly,1
+SUB-00312,CUST-0097,Growth,249,GBP,2024-06-06,"Feb 13, 2025",expired,monthly,0
+SUB-00773,CUST-0116,free,0,AED,06-13-2021,18/02/2022,expired,monthly,yes
+SUB-00506,CUST-0197,Professional,99,USD,2024/07/04,null,active,quarterly,True
+SUB-00542,CUST-0044,SCALE,499,USD,2023-07-13,,active,monthly,False
+SUB-00309,CUST-0388,free,0,USD,2025/01/08,2025-07-21T00:00:00,expired,annual,1
+SUB-00443,CUST-0384,growth,249,EUR,08-18-2025,2026-04-13,expired,monthly,False
+SUB-00203,CUST-0109,Starter,29,USD,"Aug 12, 2024",2024-12-01T00:00:00,EXPIRED,quarterly,True
+SUB-00063,CUST-0157,BASIC,29,AED,01-30-2023,N/A,active,annual,False
+SUB-00511,CUST-0389,Professional,99,AED,2024-05-26,,active,monthly,no
+SUB-00731,CUST-0068,Scale,499,GBP,05-07-2025,N/A,active,monthly,True
+SUB-00529,CUST-0402,free,0,GBP,2025-01-17,,active,monthly,False
+SUB-00630,CUST-0011,FREE,0,GBP,13/04/2023,09-19-2023,EXPIRED,annual,no
+SUB-00403,CUST-0442,Basic,29,EUR,2024/04/02,NaT,active,annual,1
+SUB-00132,CUST-0323,growth,249,USD,"Oct 07, 2024",,active,monthly,1
+SUB-00364,CUST-0197,Pro,99,EUR,2024/11/29,,active,annual,1
+SUB-00716,CUST-0392,Premium,999,EUR,10-03-2021,N/A,active,monthly,True
+SUB-00114,CUST-0451,Scale,499,GBP,06/12/2023 00:00,"Apr 23, 2024",cancelled,annual,1
+SUB-00382,CUST-0201,Premium,999,USD,"Aug 22, 2025",30/05/2026,EXPIRED,quarterly,False
+SUB-00150,CUST-0139,Free,0,GBP,03-23-2023,,active,monthly,yes
+SUB-00736,CUST-0151,Growth,249,EUR,02-21-2024,,active,quarterly,true
+SUB-00386,CUST-0121,scale,499,USD,08/31/2024 00:00,,active,monthly,false
+SUB-00775,CUST-0374,FREE,0,EUR,03-03-2023,,active,annual,yes
+SUB-00673,CUST-0207,BASIC,29,USD,09/13/2025 00:00,NaT,active,monthly,1
+SUB-00127,CUST-0233,premium,999,GBP,16-Jul-2025,,active,annual,False
+SUB-00223,CUST-0480,premium,999,AED,2022/10/15,2023/07/05,expired,monthly,N
+SUB-00559,CUST-0400,PRO,99,USD,"May 03, 2023",01-Feb-2024,expired,quarterly,N
+SUB-00522,CUST-0396,Basic,29,AED,07/07/2022 00:00,,active,quarterly,False
+SUB-00145,CUST-0049,free,0,EUR,05/13/2022 00:00,"Feb 17, 2023",expired,monthly,1
+SUB-00713,CUST-0185,Enterprise,999,USD,19-Nov-2022,,active,annual,no
+SUB-00202,CUST-0221,Scale,499,EUR,09-14-2025,2026-03-08T00:00:00,EXPIRED,quarterly,0
+SUB-00528,CUST-0397,Basic,29,GBP,20/06/2025,01/01/2026,expired,monthly,0
+SUB-00172,CUST-0292,PRO,99,GBP,2025/05/09,,active,monthly,N
+SUB-00770,CUST-0289,free,0,USD,17/06/2024,,active,quarterly,N
+SUB-00480,CUST-0246,Basic,29,GBP,2021/12/21,2022-06-01T00:00:00,expired,monthly,1
+SUB-00531,CUST-0078,pro,99,EUR,2025-09-11,2026-08-25T00:00:00,cancelled,annual,True
+SUB-00287,CUST-0204,Premium,999,GBP,2025-04-25T00:00:00,2025/07/11,cancelled,monthly,N
+SUB-00436,CUST-0316,free,0,USD,09-11-2021,2022-07-06T00:00:00,Cancelled,monthly,0
+SUB-00318,CUST-0168,pro,99,USD,2025/07/25,15/03/2026,Cancelled,monthly,1
+SUB-00919,CUST-0054,scale,49,USD,10/06/2025 00:00,,active,monthly,True
+SUB-00550,CUST-0136,enterprise,999,GBP,"Oct 03, 2024",2025-06-02T00:00:00,cancelled,monthly,no
+SUB-00603,CUST-0379,FREE,0,USD,"Dec 04, 2022",NaT,active,quarterly,False
+SUB-00161,CUST-0185,,0,USD,2022/07/05,2023-01-09,Cancelled,quarterly,True
+SUB-00514,CUST-0473,Professional,99,GBP,2024/11/04,04-11-2025,expired,monthly,0
+SUB-00654,CUST-0230,Starter,29,USD,31-Mar-2022,,active,annual,False
+SUB-00121,CUST-0484,Starter,29,AED,2022-09-19T00:00:00,2023/04/11,cancelled,monthly,1
+SUB-00604,CUST-0041,ENTERPRISE,999,EUR,06-18-2022,null,active,annual,true
+SUB-00493,CUST-0410,BASIC,29,AED,2022/09/18,2023/03/26,cancelled,monthly,1
+SUB-00475,CUST-0023,enterprise,999,EUR,04/13/2023 00:00,"Mar 09, 2024",cancelled,monthly,0
+SUB-00704,CUST-0302,growth,249,USD,08-20-2025,null,active,monthly,yes
+SUB-00212,CUST-0214,Enterprise,999,AED,2025-06-06,N/A,active,annual,0
+SUB-00594,CUST-0280,Basic,29,AED,"Apr 21, 2022",2022-06-09T00:00:00,Cancelled,quarterly,N
+SUB-00463,CUST-0299,BASIC,29,USD,08-20-2021,N/A,active,annual,False
+SUB-00271,CUST-0039,Enterprise,999,GBP,21/05/2025,,active,annual,true
+SUB-00083,CUST-0071,BASIC,29,USD,16/11/2023,,active,quarterly,True
+SUB-00570,CUST-0323,BASIC,29,GBP,08-18-2022,"May 21, 2023",EXPIRED,quarterly,False
+SUB-00180,CUST-0440,PRO,99,USD,2023-11-12,04/15/2024 00:00,expired,monthly,False
+SUB-00712,CUST-0243,Free,0,EUR,08-Jan-2023,,active,monthly,True
+SUB-00519,CUST-0351,Scale,499,EUR,09/01/2022,2022-04-29T00:00:00,expired,monthly,N
+SUB-00005,CUST-0458,Premium,999,GBP,12-Jul-2022,2023-06-03,expired,monthly,0
+SUB-00369,CUST-0161,Starter,29,AED,12/13/2022 00:00,null,active,monthly,no
+SUB-00552,CUST-0245,ENTERPRISE,999,EUR,"Jul 25, 2021",,active,monthly,false
+SUB-00304,CUST-0050,Pro,99,EUR,10-11-2024,NaT,active,monthly,0
+SUB-00579,CUST-0399,Enterprise,999,AED,2021/07/17,,active,monthly,false
+SUB-00515,CUST-0408,Scale,499,USD,2023-04-09,2024-01-21T00:00:00,expired,monthly,False
+SUB-00026,CUST-0099,Enterprise,999,AED,2022/05/21,11-10-2022,EXPIRED,monthly,N
+SUB-00106,CUST-0163,basic,29,GBP,2024/07/08,null,active,monthly,Y
+SUB-00165,CUST-0100,premium,999,GBP,09-Nov-2024,,active,quarterly,N
+SUB-00115,CUST-0424,Pro,99,USD,06-Jun-2024,30-Jan-2025,expired,monthly,False
+SUB-00309,CUST-0388,free,0,USD,2025/01/08,2025-07-21T00:00:00,expired,annual,1
+SUB-00357,CUST-0196,premium,-999,GBP,08-30-2027,,active,quarterly,true
+SUB-00292,CUST-0480,Professional,99,GBP,03-18-2023,null,active,monthly,1
+SUB-00546,CUST-0025,Premium,999,USD,2022-07-12T00:00:00,26-Sep-2022,expired,monthly,True
+SUB-00184,CUST-0385,growth,249,USD,2021-11-06,,active,monthly,1
+SUB-00948,CUST-0178,Premium,249,USD,06/07/2024,,active,monthly,True
+SUB-00494,CUST-0471,,499,USD,12-08-2021,,active,monthly,no
+SUB-00326,CUST-0145,Premium,999,GBP,08/02/2023 00:00,NaT,active,monthly,False
+SUB-00452,CUST-0100,Scale,499,USD,"Aug 09, 2024",2024-11-24,EXPIRED,monthly,true
+SUB-00690,CUST-0026,Starter,29,GBP,02-10-2022,,active,annual,False
+SUB-00041,CUST-0420,growth,249,AED,20-Jun-2022,null,active,annual,Y
+SUB-00670,CUST-0276,Free,0,GBP,2024-12-03,,active,quarterly,1
+SUB-00238,CUST-0423,Pro,99,AED,05/04/2022,N/A,active,monthly,False
+SUB-00096,CUST-0372,Pro,99,GBP,08/13/2021 00:00,,active,monthly,0
+SUB-00316,CUST-0212,growth,249,EUR,2022/12/22,NaT,active,monthly,Y
+SUB-00916,CUST-0115,FREE,499,USD,17-Jul-2023,,active,monthly,True
+SUB-00539,CUST-0388,Pro,99,EUR,"Jun 25, 2023",,active,monthly,1
+SUB-00626,CUST-0290,premium,999,USD,06-Sep-2024,,active,monthly,true
+SUB-00198,CUST-0033,Premium,999,EUR,2023-01-11T00:00:00,NaT,active,monthly,yes
+SUB-00379,CUST-0334,enterprise,999,USD,2023-12-12,2024-11-14T00:00:00,EXPIRED,monthly,N
+SUB-00302,CUST-0451,,999,USD,03/10/2021,,active,monthly,yes
+SUB-00020,CUST-0414,growth,249,USD,2025-09-25,20/11/2025,Cancelled,monthly,0
+SUB-00768,CUST-0378,basic,29,USD,2024-08-14T00:00:00,2025/04/16,cancelled,monthly,True
+SUB-00956,CUST-0141,scale,499,USD,2022-12-03,,active,monthly,True
+SUB-00113,CUST-0125,ENTERPRISE,999,USD,10/11/2022 00:00,null,active,monthly,N
+SUB-00543,CUST-0266,pro,99,EUR,2022-12-17,null,active,monthly,True
+SUB-00162,CUST-0246,growth,249,USD,2021-08-29,NaT,active,monthly,0
+SUB-00944,CUST-0050,Pro,499,USD,01/05/2025 00:00,,active,monthly,True
+SUB-00126,CUST-0045,Pro,99,USD,23/12/2022,,active,monthly,False
+SUB-00209,CUST-0235,Growth,249,GBP,"Jun 20, 2025",null,active,monthly,True
+SUB-00012,CUST-0437,Scale,499,EUR,08/08/2022,27-Apr-2023,EXPIRED,annual,1
+SUB-00017,CUST-0061,premium,999,GBP,2024/08/25,NaT,active,monthly,False
+SUB-00170,CUST-0028,growth,249,EUR,"May 16, 2025","Nov 04, 2025",expired,monthly,false
+SUB-00440,CUST-0459,basic,29,USD,"Aug 16, 2023",09-Oct-2023,EXPIRED,quarterly,1
+SUB-00264,CUST-0319,Enterprise,999,GBP,22-Jun-2024,null,active,monthly,True
+SUB-00035,CUST-0202,,999,GBP,27/04/2025,null,active,quarterly,False
+SUB-00632,CUST-0270,SCALE,499,AED,"Jun 12, 2025",03-20-2026,Cancelled,monthly,True
+SUB-00356,CUST-0473,growth,249,USD,01-06-2024,N/A,active,annual,True
+SUB-00924,CUST-0143,PRO,499,USD,"Dec 14, 2021",,active,monthly,True
+SUB-00601,CUST-0292,basic,29,AED,08-02-2021,null,active,monthly,True
+SUB-00430,CUST-0441,Premium,999,USD,2023-08-01T00:00:00,N/A,active,annual,true
+SUB-00605,CUST-0485,FREE,0,AED,28-Aug-2022,,active,monthly,0
+SUB-00527,CUST-0325,free,0,USD,2021/11/12,null,active,monthly,True
+SUB-00461,CUST-0408,Basic,29,USD,04-04-2022,,active,monthly,0
+SUB-00459,CUST-0243,Basic,29,USD,04/15/2023 00:00,N/A,active,annual,no
+SUB-00305,CUST-0020,free,0,USD,02/02/2022,null,active,monthly,no
+SUB-00667,CUST-0490,Pro,99,AED,07-24-2021,18/09/2021,EXPIRED,monthly,1
+SUB-00608,CUST-0268,ENTERPRISE,999,USD,2024-09-04T00:00:00,2024/10/23,cancelled,monthly,False
+SUB-00612,CUST-0245,Basic,29,AED,09-Dec-2022,N/A,active,monthly,true
+SUB-00569,CUST-0208,FREE,0,EUR,2025/09/10,,active,quarterly,1
+SUB-00314,CUST-0149,Basic,29,USD,10-06-2022,N/A,active,monthly,False
+SUB-00763,CUST-0482,FREE,0,EUR,2021-06-27,,active,quarterly,1
+SUB-00476,CUST-0154,premium,999,AED,2021/08/19,N/A,active,monthly,True
+SUB-00568,CUST-0002,Growth,249,USD,2023-09-13T00:00:00,null,active,monthly,yes
+SUB-00144,CUST-0500,Basic,29,EUR,23/08/2023,null,active,monthly,true
+SUB-00961,CUST-0130,pro,99,USD,03/12/2021,,active,monthly,True
+SUB-00052,CUST-0232,,499,GBP,07/14/2025 00:00,null,active,monthly,0
+SUB-00008,CUST-0296,Basic,-29,USD,29/06/2023,N/A,active,annual,1
+SUB-00492,CUST-0269,Premium,999,USD,2024/10/10,null,active,monthly,False
+SUB-00291,CUST-0266,FREE,0,EUR,2023/08/28,null,active,monthly,1
+SUB-00468,CUST-0297,,99,GBP,2025/06/11,,active,annual,Y
+SUB-00290,CUST-0152,Professional,99,EUR,2021-07-13T00:00:00,NaT,active,quarterly,no
+SUB-00634,CUST-0311,scale,499,EUR,28-Apr-2024,,active,monthly,Y
+SUB-00388,CUST-0144,enterprise,999,USD,2027-11-29,,active,monthly,N
+SUB-00682,CUST-0301,Professional,99,GBP,06-03-2023,,active,annual,False
+SUB-00358,CUST-0139,ENTERPRISE,999,AED,2022/07/11,"Feb 26, 2023",expired,monthly,0
+SUB-00025,CUST-0043,Pro,99,AED,2022/12/01,04/12/2023 00:00,cancelled,annual,1
+SUB-00759,CUST-0303,Growth,249,EUR,2025/01/09,"Jun 06, 2025",cancelled,monthly,1
+SUB-00071,CUST-0075,premium,999,GBP,"Jul 15, 2021",12/15/2021 00:00,expired,annual,True
+SUB-00774,CUST-0466,SCALE,499,USD,2025-06-20T00:00:00,"Jan 23, 2026",cancelled,quarterly,False
+SUB-00611,CUST-0197,Premium,999,AED,05/19/2024 00:00,NaT,active,monthly,no
+SUB-00653,CUST-0467,Scale,499,USD,19-Feb-2027,03-26-2025,EXPIRED,annual,yes
+SUB-00735,CUST-0263,FREE,0,USD,31-Oct-2021,null,active,monthly,False
+SUB-00765,CUST-0494,Growth,249,USD,04-Sep-2022,23-Apr-2023,EXPIRED,monthly,false
+SUB-00239,CUST-0134,free,0,USD,23/05/2024,null,active,monthly,1
+SUB-00187,CUST-0233,Basic,29,EUR,2024-02-21,null,active,annual,True
+SUB-00343,CUST-0389,scale,499,AED,2025-02-10,2025-12-19,cancelled,monthly,1
+SUB-00525,CUST-0283,BASIC,29,USD,26-Apr-2023,NaT,active,monthly,0
+SUB-00032,CUST-0024,Enterprise,999,AED,2023-10-11T00:00:00,"Jun 28, 2024",expired,quarterly,True
+SUB-00193,CUST-0020,Pro,99,USD,2024-10-30T00:00:00,NaT,active,monthly,False
+SUB-00564,CUST-0170,FREE,0,USD,12-28-2021,"Oct 10, 2022",Cancelled,monthly,true
+SUB-00337,CUST-0213,Starter,29,AED,05/26/2024 00:00,null,active,monthly,False
+SUB-00392,CUST-0231,free,0,GBP,03-25-2025,15-May-2025,Cancelled,quarterly,Y
+SUB-00317,CUST-0393,scale,490,GBP,19/02/2022,,active,monthly,1
+SUB-00119,CUST-0316,Starter,29,GBP,06/19/2025 00:00,2026-01-16T00:00:00,EXPIRED,monthly,1
+SUB-00208,CUST-0047,Growth,249,GBP,2021-07-17T00:00:00,NaT,active,quarterly,0
+SUB-00317,CUST-0393,scale,499,GBP,19/02/2022,,active,monthly,1
+SUB-00213,CUST-0204,basic,29,GBP,06/15/2023 00:00,N/A,active,monthly,False
+SUB-00243,CUST-0058,free,0,USD,04/21/2022 00:00,NaT,active,monthly,1
+SUB-00900,CUST-0072,Starter,249,USD,02-08-2022,,active,monthly,True
+SUB-00431,CUST-0315,growth,249,GBP,07/18/2021 00:00,N/A,active,quarterly,False
+SUB-00558,CUST-0074,Premium,999,USD,09/28/2027 00:00,,active,monthly,True
+SUB-00487,CUST-0468,SCALE,499,GBP,2027-07-01,,active,monthly,True
+SUB-00548,CUST-0209,,0,USD,06-15-2025,,active,monthly,1
+SUB-00544,CUST-0437,enterprise,999,USD,"Oct 03, 2022",2023/02/20,expired,quarterly,False
+SUB-00348,CUST-0475,BASIC,29,GBP,"Jun 16, 2022","Aug 31, 2022",cancelled,monthly,N
+SUB-00472,CUST-0005,premium,999,USD,09-Jun-2023,,active,monthly,0
+SUB-00029,CUST-0405,,99,USD,03/06/2023,2023-10-21,Cancelled,monthly,N
+SUB-00699,CUST-0151,pro,99,EUR,09/08/2025 00:00,null,active,annual,true
+SUB-00449,CUST-0031,Basic,-29,EUR,09-Apr-2024,01/30/2025 00:00,Cancelled,monthly,no
+SUB-00136,CUST-0275,,99,AED,14-Oct-2025,,active,quarterly,yes
+SUB-00620,CUST-0264,pro,99,USD,26/06/2023,08-30-2023,expired,monthly,0
+SUB-00082,CUST-0095,premium,999,AED,05/17/2024 00:00,NaT,active,monthly,False
+SUB-00237,CUST-0029,premium,999,USD,05/03/2023 00:00,12-08-2023,EXPIRED,monthly,False
+SUB-00496,CUST-0359,Starter,29,GBP,2027/09/25,,active,quarterly,false
+SUB-00503,CUST-0222,scale,499,USD,2022-04-21T00:00:00,20/06/2022,EXPIRED,monthly,true
+SUB-00437,CUST-0160,pro,99,GBP,05-02-2024,2024/07/18,cancelled,quarterly,0
+SUB-00169,CUST-0393,pro,99,GBP,"Jun 22, 2021",2022/01/29,EXPIRED,monthly,N
+SUB-00602,CUST-0202,scale,499,AED,2024/09/28,,active,monthly,Y
+SUB-00221,CUST-0399,Starter,29,GBP,2025-01-22,"Nov 03, 2025",EXPIRED,monthly,False
+SUB-00800,CUST-0390,growth,249,EUR,10-03-2024,11/05/2025,EXPIRED,monthly,True
+SUB-00536,CUST-0063,growth,249,AED,2022-10-31,null,active,monthly,0
+SUB-00638,CUST-0445,Free,0,EUR,30/06/2022,"Nov 07, 2022",cancelled,quarterly,0
+SUB-00038,CUST-0314,growth,249,AED,12/05/2022 00:00,,active,monthly,False
+SUB-00416,CUST-0288,BASIC,29,GBP,2025-05-13,null,active,monthly,1
+SUB-00465,CUST-0050,SCALE,499,USD,10-25-2024,04/18/2025 00:00,cancelled,annual,False
+SUB-00581,CUST-0006,PRO,99,USD,2022-05-03,N/A,active,monthly,false
+SUB-00691,CUST-0456,basic,29,GBP,2023-05-21,"Feb 17, 2024",cancelled,quarterly,yes
+SUB-00474,CUST-0314,PRO,99,USD,11/08/2023 00:00,NaT,active,quarterly,True
+SUB-00414,CUST-0015,PRO,99,EUR,"Mar 07, 2025",,active,annual,no
+SUB-00441,CUST-0090,Starter,29,EUR,06-01-2025,2026-05-24,cancelled,monthly,0
+SUB-00250,CUST-0048,pro,99,USD,04-03-2024,,active,monthly,0
+SUB-00586,CUST-0252,FREE,0,USD,2024/06/03,NaT,active,annual,true
+SUB-00207,CUST-0258,BASIC,29,USD,10-Oct-2024,NaT,active,monthly,true
+SUB-00076,CUST-0248,growth,249,GBP,2024/01/23,,active,monthly,no
+SUB-00315,CUST-0080,Pro,99,GBP,2024/10/09,"Mar 20, 2025",EXPIRED,monthly,1
+SUB-00154,CUST-0374,enterprise,999,USD,"Jun 23, 2023",,active,quarterly,true
+SUB-00751,CUST-0142,basic,29,USD,15/08/2023,null,active,annual,true
+SUB-00140,CUST-0324,Professional,99,USD,2021/08/09,10/11/2021,EXPIRED,monthly,False
+SUB-00099,CUST-0465,Enterprise,999,USD,2025-08-21T00:00:00,N/A,active,monthly,1
+SUB-00776,CUST-0385,ENTERPRISE,999,GBP,"Sep 28, 2022",,active,quarterly,1
+SUB-00073,CUST-0235,Starter,29,USD,07/30/2024 00:00,,active,monthly,true
+SUB-00016,CUST-0481,premium,999,USD,08-09-2023,N/A,active,monthly,False
+SUB-00772,CUST-0131,scale,499,USD,2024-01-05,N/A,active,monthly,False
+SUB-00747,CUST-0397,free,0,USD,19/02/2025,N/A,active,monthly,false
+SUB-00173,CUST-0381,Enterprise,999,USD,12/03/2021 00:00,null,active,monthly,False
+SUB-00722,CUST-0097,Growth,249,GBP,"Jul 26, 2023",NaT,active,monthly,False
+SUB-00019,CUST-0233,premium,999,GBP,"Dec 15, 2024",null,active,monthly,yes
+SUB-00141,CUST-0376,Scale,499,AED,2021-07-12T00:00:00,"May 15, 2022",expired,quarterly,0
+SUB-00001,CUST-0164,FREE,0,USD,04-Aug-2021,N/A,active,annual,false
+SUB-00489,CUST-0288,Starter,29,USD,27-Sep-2024,"Jul 07, 2025",Cancelled,monthly,yes
+SUB-00062,CUST-0306,enterprise,999,USD,05-21-2022,,active,monthly,true
+SUB-00190,CUST-0251,scale,499,USD,2023/06/22,2024-05-23,Cancelled,quarterly,True
+SUB-00367,CUST-0377,PRO,99,EUR,2024-05-08T00:00:00,,active,monthly,True
+SUB-00509,CUST-0354,free,0,USD,10-08-2023,,active,monthly,N
+SUB-00561,CUST-0294,pro,99,USD,07-03-2021,N/A,active,quarterly,N
+SUB-00462,CUST-0432,Growth,249,USD,22/03/2025,,active,monthly,True
+SUB-00329,CUST-0208,Scale,499,EUR,10/04/2023 00:00,null,active,monthly,False
+SUB-00606,CUST-0287,,249,EUR,2023/06/27,N/A,active,quarterly,False
+SUB-00703,CUST-0416,Scale,499,AED,2021/11/03,"Jan 28, 2022",expired,annual,False
+SUB-00607,CUST-0250,enterprise,999,USD,18/11/2022,27/03/2023,Cancelled,annual,no
+SUB-00385,CUST-0073,,999,USD,23/12/2023,,active,annual,true
+SUB-00591,CUST-0088,pro,99,USD,02/09/2022,N/A,active,monthly,True
+SUB-00784,CUST-0276,Professional,99,GBP,02-26-2022,NaT,active,monthly,1
+SUB-00584,CUST-0049,Scale,499,GBP,2022/12/17,12/02/2023,expired,annual,0
+SUB-00727,CUST-0166,Starter,29,AED,"Oct 15, 2027",NaT,active,annual,True
+SUB-00689,CUST-0477,Free,0,USD,21-Jul-2023,null,active,quarterly,True
+SUB-00748,CUST-0373,Growth,249,USD,2023-11-14T00:00:00,2024-04-15,Cancelled,annual,0
+SUB-00338,CUST-0228,Starter,29,USD,2025-08-26,08-Apr-2026,EXPIRED,annual,no
+SUB-00351,CUST-0360,BASIC,29,GBP,2022/06/21,2023-01-01T00:00:00,expired,quarterly,Y
+SUB-00464,CUST-0429,Free,0,USD,10/25/2021 00:00,NaT,active,monthly,true
+SUB-00080,CUST-0327,FREE,0,USD,"Jul 14, 2024","Dec 20, 2024",EXPIRED,monthly,1
+SUB-00671,CUST-0071,pro,99,EUR,31-Aug-2025,03/31/2026 00:00,expired,monthly,yes
+SUB-00275,CUST-0313,scale,499,USD,2022-04-11T00:00:00,2022/11/01,Cancelled,monthly,Y
+SUB-00439,CUST-0189,pro,99,USD,09-Apr-2022,,active,monthly,yes
+SUB-00089,CUST-0019,SCALE,499,USD,2024-04-05,2024-10-31,EXPIRED,monthly,1
+SUB-00378,CUST-0145,Enterprise,999,USD,2024/07/14,null,active,monthly,False
+SUB-00694,CUST-0350,Enterprise,999,AED,2025-10-26T00:00:00,N/A,active,annual,1
+SUB-00642,CUST-0374,PRO,99,USD,2021-08-15,12-21-2021,EXPIRED,annual,Y
+SUB-00668,CUST-0341,Basic,29,USD,13/12/2024,,active,monthly,Y
+SUB-00075,CUST-0078,Growth,249,GBP,02-03-2025,null,active,monthly,1
+SUB-00583,CUST-0280,enterprise,999,USD,2023-02-19,04-15-2023,expired,annual,True
+SUB-00258,CUST-0215,BASIC,29,EUR,01/17/2022 00:00,,active,quarterly,1
+SUB-00327,CUST-0246,Pro,99,USD,2023/12/18,,active,annual,True
+SUB-00371,CUST-0092,ENTERPRISE,999,USD,07-Nov-2024,NaT,active,quarterly,True
+SUB-00780,CUST-0185,FREE,0,GBP,10-16-2024,,active,monthly,True
+SUB-00488,CUST-0341,Growth,249,USD,19-Jan-2025,N/A,active,monthly,true
+SUB-00284,CUST-0179,pro,99,AED,"Mar 20, 2024",null,active,monthly,False
+SUB-00322,CUST-0441,Enterprise,999,GBP,2022-05-26,N/A,active,annual,true
+SUB-00065,CUST-0491,Scale,499,USD,"Nov 29, 2021",NaT,active,quarterly,False
+SUB-00396,CUST-0428,PRO,99,USD,2025/06/06,"Mar 21, 2026",cancelled,annual,True
+SUB-00375,CUST-0330,Professional,99,USD,06-Feb-2024,27-Jun-2024,expired,annual,1
+SUB-00485,CUST-0354,free,0,GBP,03-Jul-2022,,active,monthly,0
+SUB-00585,CUST-0464,scale,499,USD,07-27-2025,,active,monthly,0
+SUB-00680,CUST-0205,free,0,EUR,04-27-2025,null,active,annual,0
+SUB-00409,CUST-0293,pro,99,EUR,21/02/2025,12-27-2025,Cancelled,quarterly,1
+SUB-00294,CUST-0295,basic,29,EUR,30/12/2023,,active,monthly,yes
+SUB-00728,CUST-0221,Scale,499,GBP,2027-04-30T00:00:00,05-06-2025,expired,annual,no
+SUB-00732,CUST-0003,FREE,0,EUR,25-Jun-2023,null,active,quarterly,False
+SUB-00411,CUST-0156,Pro,99,USD,"Mar 17, 2023",N/A,active,annual,0
+SUB-00293,CUST-0470,Free,-2,AED,"May 21, 2025",null,active,quarterly,0
+SUB-00395,CUST-0281,growth,249,AED,07-May-2024,N/A,active,monthly,false
+SUB-00226,CUST-0369,scale,499,GBP,10/10/2025 00:00,,active,monthly,1
+SUB-00074,CUST-0142,Basic,29,AED,"Apr 21, 2022",null,active,quarterly,1
+SUB-00014,CUST-0213,Professional,99,USD,2021-06-09,,active,monthly,0
+SUB-00153,CUST-0240,Premium,999,USD,"Apr 17, 2022",2023/04/07,expired,monthly,0
+SUB-00332,CUST-0283,pro,99,USD,02/10/2025 00:00,,active,monthly,1
+SUB-00576,CUST-0374,Growth,249,EUR,08/26/2022 00:00,N/A,active,quarterly,True
+SUB-00669,CUST-0263,Premium,999,EUR,03-30-2024,,active,monthly,0
+SUB-00125,CUST-0145,FREE,0,EUR,2023/10/22,,active,monthly,0
+SUB-00313,CUST-0365,ENTERPRISE,999,AED,2021-10-28,,active,annual,false
+SUB-00573,CUST-0308,growth,249,EUR,"Aug 07, 2023",04/10/2023,cancelled,monthly,Y
+SUB-00235,CUST-0286,free,0,USD,23/07/2025,"Dec 10, 2025",EXPIRED,monthly,False
+SUB-00323,CUST-0116,pro,99,USD,"Dec 06, 2024",2025/08/17,cancelled,quarterly,true
+SUB-00498,CUST-0303,Scale,499,USD,08/28/2024 00:00,2025-02-01,cancelled,monthly,1
+SUB-00007,CUST-0112,PRO,99,AED,2023-10-09T00:00:00,,active,monthly,false
+SUB-00242,CUST-0492,Free,0,AED,01-Apr-2023,,active,monthly,no
+SUB-00108,CUST-0349,Scale,499,USD,2021-10-25,null,active,quarterly,1
+SUB-00283,CUST-0167,scale,499,USD,"May 02, 2025",NaT,active,quarterly,Y
+SUB-00766,CUST-0006,BASIC,29,EUR,03-07-2024,2024/10/17,Cancelled,monthly,0
+SUB-00785,CUST-0381,BASIC,29,USD,"Jan 18, 2024",24/12/2024,cancelled,monthly,True
+SUB-00279,CUST-0311,FREE,0,GBP,2023-07-10T00:00:00,,active,quarterly,False
+SUB-00057,CUST-0314,Starter,29,USD,2023/11/05,,active,monthly,0
+SUB-00545,CUST-0373,Professional,99,GBP,03/17/2022 00:00,NaT,active,annual,N
+SUB-00118,CUST-0217,Growth,249,GBP,2022/02/17,,active,monthly,0
+SUB-00664,CUST-0417,Scale,499,USD,2023-07-23T00:00:00,N/A,active,monthly,true
+SUB-00069,CUST-0059,BASIC,29,USD,06/01/2021 00:00,2021-08-31,cancelled,quarterly,0
+SUB-00251,CUST-0163,Scale,499,AED,27/06/2022,09/11/2022 00:00,Cancelled,monthly,True
+SUB-00491,CUST-0039,Free,0,USD,2023/06/16,20-Dec-2023,Cancelled,monthly,N
+SUB-00651,CUST-0227,FREE,0,USD,2025-03-18T00:00:00,,active,monthly,True
+SUB-00249,CUST-0226,Starter,29,EUR,2023-07-09T00:00:00,"Nov 22, 2023",EXPIRED,monthly,1
+SUB-00777,CUST-0466,FREE,0,USD,08-Feb-2024,null,active,monthly,Y
+SUB-00783,CUST-0002,basic,29,EUR,05/07/2023 00:00,N/A,active,monthly,1
+SUB-00672,CUST-0133,free,0,GBP,04/09/2021,,active,monthly,1
+SUB-00381,CUST-0118,FREE,0,USD,30-Oct-2022,"Dec 11, 2022",Cancelled,annual,N
+SUB-00217,CUST-0158,pro,99,EUR,2024/08/06,,active,monthly,true
+SUB-00346,CUST-0391,,29,USD,11/10/2022,20/05/2023,cancelled,monthly,N
+SUB-00633,CUST-0051,Pro,99,USD,"Jun 17, 2023",,active,monthly,True
+SUB-00753,CUST-0043,Starter,29,USD,2024-01-04,,active,monthly,1
+SUB-00387,CUST-0016,basic,29,USD,2024-03-15,NaT,active,monthly,Y
+SUB-00059,CUST-0233,basic,29,USD,2022-08-20,2023-07-19T00:00:00,cancelled,monthly,Y
+SUB-00415,CUST-0209,premium,999,AED,2025/08/26,N/A,active,monthly,1
+SUB-00761,CUST-0033,BASIC,29,GBP,16-Jun-2024,05-26-2025,cancelled,quarterly,False
+SUB-00183,CUST-0301,Basic,29,USD,29-Aug-2022,null,active,monthly,yes
+SUB-00189,CUST-0346,BASIC,29,AED,04/04/2022 00:00,2023-03-02T00:00:00,Cancelled,monthly,0
+SUB-00940,CUST-0067,scale,99,USD,29-Nov-2022,,active,monthly,True
+SUB-00702,CUST-0305,Growth,249,USD,11/27/2023 00:00,,active,annual,1
+SUB-00681,CUST-0270,scale,499,AED,15/10/2024,,active,monthly,False
+SUB-00721,CUST-0261,premium,999,GBP,10/05/2024 00:00,N/A,active,monthly,True
+SUB-00580,CUST-0480,Pro,99,USD,06-Mar-2023,N/A,active,monthly,0
+SUB-00687,CUST-0041,scale,499,USD,"Dec 07, 2022",null,active,quarterly,true
+SUB-00755,CUST-0471,Enterprise,999,USD,01/05/2025,,active,monthly,0
+SUB-00355,CUST-0154,SCALE,499,USD,03-04-2023,,active,monthly,1
+SUB-00158,CUST-0268,ENTERPRISE,999,GBP,2024/05/22,04-26-2025,expired,annual,yes
+SUB-00260,CUST-0065,Professional,99,GBP,20/04/2024,2024-08-01T00:00:00,expired,monthly,no
+SUB-00300,CUST-0199,Scale,499,USD,07-21-2023,,active,monthly,False
+SUB-00667,CUST-0490,Pro,99,AED,07-24-2021,18/09/2021,EXPIRED,monthly,1
+SUB-00109,CUST-0460,premium,999,AED,2023-07-08,,active,monthly,True
+SUB-00650,CUST-0128,basic,29,AED,02/11/2022 00:00,14-Sep-2022,EXPIRED,annual,1
+SUB-00018,CUST-0224,Basic,29,AED,09/12/2024,NaT,active,annual,True
+SUB-00521,CUST-0291,PRO,99,EUR,2023/12/07,null,active,monthly,no
+SUB-00166,CUST-0482,growth,249,USD,"Oct 01, 2023",NaT,active,monthly,N
+SUB-00146,CUST-0380,ENTERPRISE,999,USD,"Apr 05, 2022",02/18/2023 00:00,EXPIRED,quarterly,0
+SUB-00157,CUST-0242,ENTERPRISE,999,AED,2023-02-10T00:00:00,N/A,active,annual,N
+SUB-00799,CUST-0091,ENTERPRISE,999,USD,06-Jan-2023,NaT,active,monthly,yes
+SUB-00222,CUST-0051,ENTERPRISE,999,USD,04/05/2024 00:00,"Feb 12, 2025",cancelled,monthly,True
+SUB-00215,CUST-0050,ENTERPRISE,999,GBP,01/05/2025 00:00,,active,monthly,False
+SUB-00149,CUST-0250,Pro,99,USD,2025/08/12,,active,annual,True
+SUB-00135,CUST-0134,basic,29,GBP,2022-12-02,null,active,annual,1
+SUB-00745,CUST-0212,Growth,249,EUR,25/02/2022,N/A,active,monthly,no
+SUB-00469,CUST-0099,Growth,239,EUR,10/14/2021 00:00,2022-03-22T00:00:00,EXPIRED,monthly,0
+SUB-00333,CUST-0382,FREE,0,USD,09/23/2025 00:00,"May 16, 2026",expired,monthly,1
+SUB-00206,CUST-0465,Starter,29,EUR,2023-07-26T00:00:00,,active,monthly,no
+SUB-00490,CUST-0440,Starter,29,USD,2021/09/21,N/A,active,monthly,True
+SUB-00413,CUST-0038,FREE,0,USD,2022-05-04T00:00:00,2022-12-31,Cancelled,annual,True
+SUB-00265,CUST-0396,free,0,USD,2023/12/22,,active,monthly,1
+SUB-00547,CUST-0371,BASIC,29,AED,11/19/2021 00:00,null,active,annual,False
+SUB-00269,CUST-0192,pro,99,AED,"Dec 23, 2021",,active,quarterly,no
+SUB-00725,CUST-0143,ENTERPRISE,999,USD,30-Jul-2025,,active,monthly,1
+SUB-00446,CUST-0130,SCALE,499,USD,08/27/2023 00:00,,active,annual,True
+SUB-00646,CUST-0118,scale,499,AED,29-Jan-2022,05-Jun-2022,EXPIRED,annual,True
+SUB-00683,CUST-0209,Basic,29,USD,01/05/2023,2023-10-05T00:00:00,cancelled,monthly,1
+SUB-00505,CUST-0443,Enterprise,999,EUR,"Feb 02, 2024",N/A,active,monthly,True
+SUB-00092,CUST-0048,FREE,0,USD,"Jun 21, 2021",2022-04-21,cancelled,monthly,True
+SUB-00724,CUST-0302,,999,USD,2025-03-17,N/A,active,annual,true
+SUB-00188,CUST-0414,scale,499,USD,25-Mar-2024,,active,monthly,1
+SUB-00648,CUST-0083,SCALE,499,USD,2022-09-16,N/A,active,monthly,1
+SUB-00574,CUST-0422,Basic,29,USD,2021/09/07,,active,monthly,Y
+SUB-00695,CUST-0135,pro,99,USD,2021-06-30T00:00:00,null,active,annual,1
+SUB-00572,CUST-0140,premium,999,USD,08/23/2021 00:00,,active,monthly,True
+SUB-00797,CUST-0365,Enterprise,999,GBP,18-Jun-2025,,active,monthly,false
+SUB-00567,CUST-0340,Premium,999,AED,06-11-2023,NaT,active,monthly,0
+SUB-00997,CUST-0128,growth,49,USD,02/11/2022 00:00,,active,monthly,True
+SUB-00796,CUST-0271,SCALE,499,GBP,2023-09-09T00:00:00,2024/02/22,Cancelled,annual,False
+SUB-00103,CUST-0434,pro,99,EUR,2023-11-26,null,active,annual,Y
+SUB-00406,CUST-0350,FREE,0,USD,03-07-2024,2024-11-19,cancelled,annual,0
+SUB-00160,CUST-0110,Premium,999,USD,2024-07-21T00:00:00,null,active,monthly,N
+SUB-00128,CUST-0163,PRO,99,USD,2024-07-18,,active,monthly,no
+SUB-00504,CUST-0394,Basic,29,AED,01/26/2024 00:00,null,active,monthly,Y
+SUB-00015,CUST-0308,ENTERPRISE,999,EUR,"Apr 18, 2023",2024-03-05T00:00:00,EXPIRED,monthly,1
+SUB-00102,CUST-0141,Growth,249,AED,2022-12-03,,active,monthly,no
+SUB-00040,CUST-0396,SCALE,499,USD,04/21/2027 00:00,06/03/2023,cancelled,monthly,0
+SUB-00391,CUST-0240,Growth,249,EUR,19/09/2025,2026/06/29,EXPIRED,monthly,False
+SUB-00205,CUST-0474,scale,499,USD,2022-04-18,NaT,active,monthly,1
+SUB-00163,CUST-0312,premium,999,GBP,18/12/2023,,active,monthly,True
+SUB-00518,CUST-0322,enterprise,999,USD,04/07/2025 00:00,N/A,active,monthly,true
+SUB-00124,CUST-0143,Pro,-99,USD,"Dec 14, 2021",2022-09-30,expired,annual,0
+SUB-00510,CUST-0412,Enterprise,999,EUR,"Sep 13, 2024","May 06, 2025",Cancelled,monthly,True
+SUB-00622,CUST-0082,PRO,99,AED,06-09-2025,N/A,active,annual,yes
+SUB-00399,CUST-0326,Premium,999,USD,2024-09-28,2025/07/06,cancelled,annual,0
+SUB-00192,CUST-0075,premium,999,EUR,"Mar 07, 2024",NaT,active,quarterly,0
+SUB-00524,CUST-0266,pro,99,USD,2024-06-08,NaT,active,quarterly,yes
+SUB-00047,CUST-0452,Premium,999,USD,"May 03, 2025",null,active,annual,false
+SUB-00471,CUST-0172,Pro,99,AED,08/26/2021 00:00,null,active,monthly,N
+SUB-00565,CUST-0115,enterprise,999,USD,2025-10-16T00:00:00,2026-06-23,EXPIRED,quarterly,0
+SUB-00051,CUST-0057,basic,29,USD,07-06-2021,,active,monthly,False
+SUB-00094,CUST-0040,Enterprise,999,USD,18-Jun-2024,2025/01/16,expired,monthly,yes
+SUB-00407,CUST-0011,Free,0,EUR,04/21/2025 00:00,,active,monthly,1
+SUB-00481,CUST-0050,enterprise,999,GBP,24/02/2023,,active,monthly,0
+SUB-00036,CUST-0006,Pro,99,GBP,2022-01-02T00:00:00,,active,monthly,False
+SUB-00359,CUST-0223,pro,99,USD,24/02/2024,null,active,annual,no
+SUB-00520,CUST-0267,free,0,AED,18-Mar-2025,N/A,active,monthly,0
+SUB-00090,CUST-0312,growth,-249,EUR,2025-03-28,N/A,active,annual,N
+SUB-00438,CUST-0121,Basic,29,USD,2022/07/06,,active,quarterly,False
+SUB-00434,CUST-0293,Growth,249,GBP,06/07/2023 00:00,N/A,active,monthly,1
+SUB-00226,CUST-0369,scale,499,GBP,10/10/2025 00:00,,active,monthly,1
+SUB-00133,CUST-0340,Scale,499,EUR,01-24-2022,08/05/2022 00:00,cancelled,annual,no
+SUB-00231,CUST-0081,PRO,99,USD,09-17-2025,null,active,quarterly,0
+SUB-00363,CUST-0462,Pro,99,USD,19/09/2027,,active,annual,no
+SUB-00228,CUST-0258,enterprise,999,USD,12/03/2024 00:00,,active,monthly,yes
+SUB-00711,CUST-0458,Professional,99,USD,2023-04-09,,active,quarterly,False
+SUB-00708,CUST-0392,PRO,99,GBP,10-11-2022,N/A,active,monthly,True
+SUB-00486,CUST-0054,Free,0,USD,10/06/2025 00:00,NaT,active,monthly,N
+SUB-00373,CUST-0042,Scale,499,AED,2023-05-05,NaT,active,annual,Y
+SUB-00295,CUST-0459,Growth,249,GBP,02-Feb-2024,,active,monthly,no
+SUB-00002,CUST-0488,Scale,499,USD,2022-12-05T00:00:00,04/04/2023,cancelled,monthly,0
+SUB-00179,CUST-0411,Growth,249,GBP,12-27-2023,,active,monthly,True
+SUB-00623,CUST-0091,pro,99,GBP,18-May-2023,NaT,active,monthly,0
+SUB-00618,CUST-0218,free,0,AED,2025-07-21T00:00:00,2025-10-10T00:00:00,Cancelled,quarterly,no
+SUB-00535,CUST-0236,Premium,-999,AED,05-29-2023,,active,monthly,True
+SUB-00195,CUST-0277,Professional,99,EUR,"Apr 22, 2025",N/A,active,monthly,N
+SUB-00907,CUST-0082,premium,49,USD,01-30-2024,,active,monthly,True
+SUB-00717,CUST-0130,growth,249,USD,2022/09/20,12-04-2022,EXPIRED,monthly,0
+SUB-00233,CUST-0162,scale,499,EUR,2023-02-21,N/A,active,monthly,1
+SUB-00454,CUST-0316,Growth,249,AED,17-Jan-2024,null,active,quarterly,true
+SUB-00790,CUST-0005,enterprise,999,USD,01-16-2025,,active,annual,true
+SUB-00710,CUST-0022,Enterprise,999,EUR,"Apr 05, 2023",null,active,quarterly,yes
+SUB-00656,CUST-0206,pro,-99,AED,2022-01-20T00:00:00,,active,monthly,yes
+SUB-00155,CUST-0092,,999,AED,2024/07/29,05/22/2025 00:00,EXPIRED,monthly,true
+SUB-00174,CUST-0244,Pro,99,EUR,2024-01-13,null,active,monthly,Y
+SUB-00152,CUST-0163,Scale,499,USD,"Jun 03, 2022",06/08/2022,cancelled,quarterly,0
+SUB-00241,CUST-0329,Scale,499,USD,2023-10-24,NaT,active,monthly,True
+SUB-00219,CUST-0245,Premium,999,AED,15-May-2022,NaT,active,monthly,1
+SUB-00700,CUST-0200,Basic,29,AED,2021/12/30,2022-06-21T00:00:00,cancelled,monthly,True
+SUB-00676,CUST-0146,free,0,EUR,2024-07-18T00:00:00,02-26-2025,Cancelled,monthly,Y
+SUB-00361,CUST-0307,Pro,99,EUR,20/05/2024,2024-12-27,expired,annual,False
+SUB-00631,CUST-0225,Basic,29,USD,2022-06-18,null,active,monthly,Y
+SUB-00383,CUST-0318,basic,29,USD,06/23/2021 00:00,N/A,active,quarterly,true
+SUB-00737,CUST-0255,Basic,29,USD,25/05/2025,N/A,active,monthly,N
+SUB-00131,CUST-0324,FREE,0,GBP,09-24-2022,null,active,monthly,True
+SUB-00353,CUST-0318,Scale,499,EUR,2021-11-11,,active,monthly,no
+SUB-00253,CUST-0200,SCALE,499,GBP,03-Jul-2021,,active,monthly,0
+SUB-00126,CUST-0045,Pro,99,USD,23/12/2022,,active,monthly,False
+SUB-00497,CUST-0296,PRO,99,USD,2024-03-05T00:00:00,,active,quarterly,True
+SUB-00647,CUST-0434,Basic,29,USD,2022-11-14,,active,annual,True
+SUB-00744,CUST-0168,enterprise,999,AED,09/08/2022 00:00,N/A,active,quarterly,yes
+SUB-00590,CUST-0461,growth,249,USD,27-Apr-2024,,active,annual,yes
+SUB-00191,CUST-0009,scale,499,USD,2023-03-27T00:00:00,"May 14, 2023",cancelled,monthly,False
+SUB-00661,CUST-0020,,29,AED,12/08/2025,NaT,active,monthly,no
+SUB-00616,CUST-0452,basic,29,AED,"Aug 27, 2021",02/03/2022,Cancelled,monthly,true
+SUB-00028,CUST-0456,basic,29,GBP,13-Apr-2024,2024-12-08T00:00:00,Cancelled,monthly,False
+SUB-00739,CUST-0404,Enterprise,999,USD,06/11/2021 00:00,"Mar 16, 2022",expired,monthly,true
+SUB-00181,CUST-0202,PRO,99,GBP,"Jan 24, 2024",,active,annual,true
