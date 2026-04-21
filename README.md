@@ -369,3 +369,26 @@ The original agent used `from langchain.agents import AgentExecutor, create_tool
 The source data contains 544 orphaned foreign keys — transactions and invoices referencing subscription IDs that were deleted from the source system after the transactions were recorded. Loading with `PRAGMA foreign_keys = ON` caused `sqlite3.IntegrityError: FOREIGN KEY constraint failed` on the first orphaned row, stopping the entire load.
 
 **Solution:** Disable FK enforcement with `PRAGMA foreign_keys = OFF` during bulk load, then re-enable it and run explicit LEFT JOIN orphan queries as part of the post-load integrity check. This mirrors how production data warehouses work: load everything, then report referential issues for the data steward. Orphans are logged with their counts and sample values so they can be investigated without blocking the pipeline.
+
+---
+
+## Deployment
+
+**Live URL:** `https://finops-platform.onrender.com/docs`
+
+*(Replace with your actual Render URL after deploying)*
+
+**Interactive API docs:** `https://finops-analytics-platform.onrender.com/docs`
+
+### Deploy to Render
+
+1. Push this repo to GitHub
+2. Go to [render.com](https://render.com) → New → Web Service
+3. Connect your GitHub repo
+4. Render auto-detects `render.yaml` — no manual config needed
+5. Add environment variable in Render dashboard:
+   - Key: `ANTHROPIC_API_KEY`
+   - Value: `sk-ant-...`
+6. Click **Deploy**
+
+Build time is ~3-5 minutes (installs dependencies, runs ETL, builds RAG index).
